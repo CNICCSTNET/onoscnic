@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data xmlns="urn:ietf:params:xml:ns:netconf:base:1.0"><l3-topology xmlns="com:huawei:controller:service:service:l3topology"><l3-nodes><node><id /><latency /></node></l3-nodes><l3-links><link><id /><max-link-reservable-bandwidth /><used-bandwidth /><te-if-metric /><latency /></link></l3-links></l3-topology></data>

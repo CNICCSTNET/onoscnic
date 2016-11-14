@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1477984134276
+Build-Jdk: 1.8.0_101
+Built-By: zhou
+Bundle-Description: ONOS OSGi bundle archetype
+Bundle-ManifestVersion: 2
+Bundle-Name: onos-test-yang
+Bundle-SymbolicName: org.onosproject.onos-test-yang
+Bundle-Version: 1.8.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.onosproject.yang.gen.v1.http.acme.example.com.system
+ .rev20070609.acmesystem.system;version="1.8.0",org.onosproject.yang.gen
+ .v1.http.acme.example.com.system.rev20070609.acmesystem;uses:="org.onos
+ project.yang.gen.v1.http.acme.example.com.system.rev20070609.acmesystem
+ .system";version="1.8.0",org.onosproject.yang.gen.v1.http.acme.example.
+ com.system.rev20070609;uses:="org.onosproject.yang.gen.v1.http.acme.exa
+ mple.com.system.rev20070609.acmesystem";version="1.8.0",org.onosproject
+ ;version="1.8.0"
+Import-Package: com.google.common.base;version="[19.0,20)",org.onosproje
+ ct.yang.gen.v1.http.acme.example.com.system.rev20070609.acmesystem,org.
+ onosproject.yang.gen.v1.http.acme.example.com.system.rev20070609.acmesy
+ stem.system,org.slf4j;version="[1.7,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/org.onosproject.AppComponent.xml
+Tool: Bnd-3.0.0.201509101326

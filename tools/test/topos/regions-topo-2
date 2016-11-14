@@ -1,0 +1,67 @@
+#!/bin/bash
+# Test topology
+
+host=${1:-127.0.0.1}
+
+onos ${host} null-simulation stop custom
+onos ${host} wipe-out please
+onos ${host} null-simulation start custom
+
+# null-create-device <type> <name> <#ports> <latitude> <longitude>
+# null-create-link <type> <src> <dst>
+
+onos ${host} <<-EOF
+
+null-create-device switch s1-Bristol 10 51.4500 -2.5833
+null-create-device switch s2-London 10 51.5072 -0.1275
+null-create-device switch s3-Dover 10 51.1295 1.3089
+null-create-device switch s4-Brighton 10 50.8429 -0.1313
+null-create-device switch s5 10 0 0
+null-create-device switch s6 10 0 0
+null-create-device switch s7 10 0 0
+null-create-device switch s8 10 0 0
+null-create-device switch s9 10 0 0
+# null-create-device switch s10 10 0 0
+
+null-create-link direct s1-Bristol s2-London
+null-create-link direct s2-London s3-Dover
+null-create-link direct s2-London s4-Brighton
+null-create-link direct s3-Dover s4-Brighton
+null-create-link direct s3-Dover s5
+null-create-link direct s6 s5
+null-create-link direct s6 s8
+null-create-link direct s7 s9
+null-create-link direct s8 s9
+null-create-link direct s5 s7
+null-create-link direct s8 s7
+
+EOF
+
+onos ${host} <<-EOF
+
+region-add r1 Region1 METRO ${host}
+region-add r2 Region2 METRO ${host}
+region-add r3 Region3 CAMPUS ${host}
+
+region-add-devices r1 \
+    null:0000000000000002 \
+    null:0000000000000003 \
+    null:0000000000000004
+
+region-add-devices r2 \
+    null:0000000000000005 \
+    null:0000000000000006
+
+region-add-devices r3 \
+    null:0000000000000007 \
+    null:0000000000000008 \
+    null:0000000000000009
+
+regions
+
+layout-add l1 r1
+layout-add l2 r2
+layout-add l3 r3 l2
+
+layouts
+EOF

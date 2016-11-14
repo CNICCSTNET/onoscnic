@@ -1,0 +1,19 @@
+{
+  "devices":{
+    "juniper:159.226.101.32:830":{
+      "basic":{
+        "driver":"ovs-netconf"
+      }
+    }
+  },
+  "apps":{
+    "org.onosproject.netconf":{
+      "devices":[{
+        "name":"zhoujianer",
+        "password":"zjr@cstnet",
+        "ip":"159.226.101.32",
+        "port":830
+      }]
+    }
+  }
+}

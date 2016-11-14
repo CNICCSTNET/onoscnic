@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data xmlns="urn:ietf:params:xml:ns:netconf:base:1.0"><resources xmlns="com:huawei:controller:service:service:resource"><ne-list><ne><id /><name /><type /><user-label /><admin-ip /><lsr-id /><longitude /><latitude /><location /><vendor-name /><software-version /><ltps><ltp><id /><name /><user-label /><ne-id /><layer-rate /><ip-address /><mtu /><speed /></ltp></ltps></ne></ne-list><ne-count /></resources></data>
