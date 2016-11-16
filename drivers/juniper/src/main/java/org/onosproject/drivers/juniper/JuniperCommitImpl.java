@@ -1,6 +1,7 @@
 package org.onosproject.drivers.juniper;
 
 import org.onosproject.drivers.juniper.tools.EditXmlCreateJuniper;
+import org.onosproject.drivers.juniper.tools.XmlParserJuniper;
 import org.onosproject.net.behaviour.CommitRouter;
 import org.onosproject.net.driver.AbstractHandlerBehaviour;
 import org.onosproject.drivers.utilities.XmlConfigParser;
@@ -29,6 +30,7 @@ public class JuniperCommitImpl extends AbstractHandlerBehaviour
         try {
             reply = session.requestSync(path);
         } catch (Exception e) {
+
             log.error("Failed to retrieve configuration from device {}.",
                     handler().data().deviceId(), e);
             return null;
@@ -39,7 +41,7 @@ public class JuniperCommitImpl extends AbstractHandlerBehaviour
     }
 
     @Override
-    public String confirmedCommit() {
+    public String confirmedCommit() throws Exception {
         EditXmlCreateJuniper edit = new EditXmlCreateJuniper();
         return sendCommit(edit.getCommitXml());
     }
@@ -55,7 +57,7 @@ public class JuniperCommitImpl extends AbstractHandlerBehaviour
     }
 
     @Override
-    public String rollBack() {
+    public String rollBack() throws Exception {
         EditXmlCreateJuniper edit = new EditXmlCreateJuniper();
         return sendCommit(edit.rollBack());
     }

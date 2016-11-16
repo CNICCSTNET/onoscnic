@@ -8,7 +8,7 @@ import org.apache.commons.configuration.XMLConfiguration;
 public class EditXmlCreateJuniper {
     private static final String BEGIN = "<rpc xmlns:nc=\"urn:ietf:params:xml:ns:netconf:base:1.0\"";
     private static final String MESSAGE = " message-id=\"1\">";
-    private static final String END = "</rpc>";
+    private static final String END = "</rpc>]]>]]>";
     public String editConfiguration(String path, String filter, String operation) {
         XMLConfiguration cfg = new XMLConfiguration();
         String parseStringPath = "";
@@ -44,7 +44,7 @@ public class EditXmlCreateJuniper {
         confirmedCommitXml.append("<confirmed/>");
         confirmedCommitXml.append("</commit>");
         confirmedCommitXml.append(END);
-        return confirmedCommitXml.toString() + "]]>]]>";
+        return confirmedCommitXml.toString();
         }
     //Timeout period for confirmed commit, in seconds. If
     //unspecified, the confirm timeout defaults to 600 seconds
@@ -60,14 +60,14 @@ public class EditXmlCreateJuniper {
         confirmedCommitXml.append("<confirm-timeout>" + timeout + "</confirm-timeout>");
         confirmedCommitXml.append("</commit>");
         confirmedCommitXml.append(END);
-        return confirmedCommitXml.toString() + "]]>]]>";
+        return confirmedCommitXml.toString();
         }
     public String rollBack() {
         StringBuilder rollBackXml = new StringBuilder();
         rollBackXml.append(BEGIN + MESSAGE);
         rollBackXml.append("<load-configuration rollback=\"1\"/>");
         rollBackXml.append(END);
-        return rollBackXml.toString() + "]]>]]>";
+        return rollBackXml.toString();
         }
     public String rollBack(String versionNum)throws Exception {
         Integer v = Integer.parseInt(versionNum);
@@ -77,6 +77,6 @@ public class EditXmlCreateJuniper {
         StringBuilder rollBackXml = new StringBuilder(BEGIN + MESSAGE);
         rollBackXml.append("<load-configuration rollback=" + versionNum + "/>");
         rollBackXml.append(END);
-        return rollBackXml.toString() + "]]>]]>";
+        return rollBackXml.toString();
         }
     }

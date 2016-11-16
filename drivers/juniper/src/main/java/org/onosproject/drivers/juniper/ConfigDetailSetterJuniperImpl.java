@@ -1,6 +1,7 @@
 package org.onosproject.drivers.juniper;
 
 import org.onosproject.drivers.juniper.tools.EditXmlCreateJuniper;
+import org.onosproject.drivers.juniper.tools.XmlParserJuniper;
 import org.onosproject.drivers.utilities.XmlConfigParser;
 import org.onosproject.net.behaviour.ConfigDetailSetter;
 import org.onosproject.net.driver.AbstractHandlerBehaviour;

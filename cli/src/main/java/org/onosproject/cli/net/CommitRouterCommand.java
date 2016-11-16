@@ -42,8 +42,12 @@ public class CommitRouterCommand extends AbstractShellCommand {
         DriverHandler h = service.createHandler(deviceId);
         CommitRouter config = h.behaviour(CommitRouter.class);
         if (type.equals("commit")) {
-            if (par == "now") {
-                print(config.confirmedCommit());
+            if (par.equals("now")) {
+                try {
+                    print(config.confirmedCommit());
+                } catch (Exception e) {
+                    log.error("Failed to commit the router.", e);
+                }
             } else {
                 try {
                     print(config.confirmedCommit(par));
@@ -53,7 +57,11 @@ public class CommitRouterCommand extends AbstractShellCommand {
             }
         } else if (type.equals("rollback")) {
             if (par == null) {
-                print(config.rollBack());
+                try {
+                    print(config.rollBack());
+                } catch (Exception e) {
+                    log.error("Failed to roll back the router.", e);
+                }
             } else {
                 try {
                     print(config.rollBack(par));

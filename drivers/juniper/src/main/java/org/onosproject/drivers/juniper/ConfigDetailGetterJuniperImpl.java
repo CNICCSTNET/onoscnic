@@ -5,6 +5,7 @@ import org.onosproject.net.behaviour.ConfigDetailGetter;
 import org.onosproject.net.driver.AbstractHandlerBehaviour;
 import org.onosproject.drivers.juniper.tools.GetXmlCreateJuniper;
 import org.onosproject.drivers.juniper.tools.XmlCreateJuniper;
+import org.onosproject.drivers.juniper.tools.XmlParserJuniper;
 import org.onosproject.drivers.utilities.XmlConfigParser;
 import org.onosproject.net.driver.DriverHandler;
 import org.onosproject.netconf.NetconfController;
