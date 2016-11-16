@@ -64,16 +64,36 @@ public class SetSpeedLimitCommand extends AbstractShellCommand {
         XmlStructureParserEdit parser = new XmlStructureParserEdit();
         String policerPath = null, policerTypeAndValue = null, policerAction = null;
         String filterPath = null, filterTypeAndValue = null, filterAction = null;
+        String termPath = null, termTypeAndValue = null, termAction = null;
+
 
         //set the policer
         policerPath = parser.configPolicerPath(name);
         policerTypeAndValue = parser.configPolicerTypeAndvalue(speed, speedburst);
         print(config.setSpeedLimit(policerPath, policerTypeAndValue, policerAction));
 
-        //set the term and filter
+        //set the term and filter, default means set the
+        // IP for both source and dest address
         filterPath = parser.configFilterPath(name, name);
-        filterTypeAndValue = parser.configFilterTypeAndvalue(ip, name);
+        filterTypeAndValue = parser.configFilterTypeAndvalue(ip, name, "default");
         print(config.setSpeedLimit(filterPath, filterTypeAndValue, filterAction));
+
+        //add the default term
+        termPath = parser.configTermPath(name, "default");
+        termTypeAndValue = parser.configTermTypeAndvalue("accept");
+        print(config.setSpeedLimit(termPath, termTypeAndValue, termAction));
+
+
+        /*
+        //set the term and filter
+        filterPath = parser.configFilterPath(name + "output", name + "output");
+        filterTypeAndValue = parser.configFilterTypeAndvalue(ip, name, "dest");
+        print(config.setSpeedLimit(filterPath, filterTypeAndValue, filterAction));
+
+        //add the default term
+        termPath = parser.configTermPath(name + "output", "default");
+        termTypeAndValue = parser.configTermTypeAndvalue("accept");
+        print(config.setSpeedLimit(termPath, termTypeAndValue, termAction));
         /*
         if (type.equals("filter")) {
             path = parser.configFilterPath(name, name);

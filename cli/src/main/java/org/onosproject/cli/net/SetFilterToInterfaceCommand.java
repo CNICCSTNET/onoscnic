@@ -21,7 +21,7 @@ import org.onosproject.net.driver.DriverService;
 @Command(scope = "onos", name = "filter-interface",
         description = "Activate or deactivate filter" +
                 "Example:" +
-                "filter-interface netconf:159.226.101.32:830 activate fe-0/0/0 testNewFilter" +
+                "filter-interface netconf:159.226.101.32:830 both activate fe-0/0/0 testNewFilter" +
                 "filter-interface netconf:159.226.101.32:830 deactivate fe-0/0/0 testNewFilter")
 public class SetFilterToInterfaceCommand extends AbstractShellCommand {
     @Argument(index = 0, name = "uri", description = "Device ID",
@@ -30,11 +30,14 @@ public class SetFilterToInterfaceCommand extends AbstractShellCommand {
     @Argument(index = 1, name = "type", description = "activate or deactivate",
             required = true, multiValued = false)
     String type = null;
-    @Argument(index = 2, name = "interface", description = "Name of the interface",
-            required = false, multiValued = false)
+    @Argument(index = 2, name = "inout", description = "Set the input or output filter or both",
+            required = true, multiValued = false)
+    String inout = null;
+    @Argument(index = 3, name = "interface", description = "Name of the interface",
+            required = true, multiValued = false)
     String interfacename = null;
-    @Argument(index = 3, name = "filter", description = "Name of the filter",
-            required = false, multiValued = false)
+    @Argument(index = 4, name = "filter", description = "Name of the filter",
+            required = true, multiValued = false)
     String filter = null;
     private DeviceId deviceId;
 
@@ -45,15 +48,29 @@ public class SetFilterToInterfaceCommand extends AbstractShellCommand {
         DriverHandler h = service.createHandler(deviceId);
         SpeedLimit config = h.behaviour(SpeedLimit.class);
         XmlStructureParserEdit parser = new XmlStructureParserEdit();
-        String path = null, typeAndValue = null, action = null;
+        String path1 = null, path2 = null, typeAndValue = null, action = null;
         if (type.equals("activate")) {
-            path = parser.configInterfacePath(interfacename, type);
+            if (inout.equals("input")) {
+                path1 = parser.configInterfacePath(interfacename, type, "input");
+            }
+            if (inout.equals("output")) {
+                path1 = parser.configInterfacePath(interfacename, type, "output");
+            }
+            if (inout.equals("both")) {
+                path1 = parser.configInterfacePath(interfacename, type, "input");
+                path2 = parser.configInterfacePath(interfacename, type, "output");
+            }
             typeAndValue = parser.configInterfaceTypeAndvalue(filter);
         } else if (type.equals("deactivate")) {
-            path = parser.configInterfacePath(interfacename, type);
+            path1 = parser.configInterfacePath(interfacename, type, null);
             action = parser.configAction("delete");
         }
-        print(config.setSpeedLimit(path, typeAndValue, action));
-    }
+        if (inout.equals("both")) {
+            print(config.setSpeedLimit(path1, typeAndValue, action));
+            print(config.setSpeedLimit(path2, typeAndValue, action));
+        } else {
+            print(config.setSpeedLimit(path1, typeAndValue, action));
+        }
 
+    }
 }

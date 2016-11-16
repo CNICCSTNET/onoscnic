@@ -41,14 +41,17 @@ public class JuniperCommitImpl extends AbstractHandlerBehaviour
     @Override
     public String confirmedCommit() {
         EditXmlCreateJuniper edit = new EditXmlCreateJuniper();
-        return sendCommit(edit.getConfirmedCommit());
-
+        return sendCommit(edit.getCommitXml());
     }
 
     @Override
     public String confirmedCommit(String timeout) throws Exception {
         EditXmlCreateJuniper edit = new EditXmlCreateJuniper();
-        return sendCommit(edit.getConfirmedCommit(timeout));
+        if (timeout.equals("confirmed")) {
+            return sendCommit(edit.getConfirmedCommit());
+        } else {
+            return sendCommit(edit.getConfirmedCommit(timeout));
+        }
     }
 
     @Override

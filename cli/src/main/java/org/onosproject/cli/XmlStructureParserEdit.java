@@ -8,6 +8,8 @@ package org.onosproject.cli;
 public class XmlStructureParserEdit {
     static final String PRE = "edit-config;config;";
     static final String SPLIT = ":";
+    static final String ACCEPT = "then/accept:";
+    static final String REFUSE = "then/refuse:";
 
     public String getXmlStructure(String firstLevel) {
         XmlStructureParser config = new XmlStructureParser();
@@ -51,8 +53,16 @@ public class XmlStructureParserEdit {
         return PRE + config.getPath("filter") + "[@name=" + filterName + "]";
     }
 
-    public String configFilterTypeAndvalue(String ip, String policerName) {
-        return "from/source-address/name:" + ip + ";then/policer:" + policerName;
+    public String configFilterTypeAndvalue(String ip, String policerName, String type) {
+        String value = null;
+        if (type.equals("source")) {
+            value = "from/source-address/name:" + ip + ";then/policer:" + policerName;
+        } else if (type.equals("dest")) {
+            value = "from/destination-address/name:" + ip + ";then/policer:" + policerName;
+        } else if (type.equals("default")) {
+            value = "from/address/name:" + ip + ";then/policer:" + policerName;
+        }
+        return value;
     }
 
     public String configFilterAction(String filterAction) {
@@ -65,6 +75,16 @@ public class XmlStructureParserEdit {
                 filterName + "];term[@name=" + termName + "]";
     }
 
+    public String configTermTypeAndvalue(String rule) {
+        String termValue = null;
+        if (rule.equals("accept")) {
+            termValue = ACCEPT;
+        } else if (rule.equals("refuse")) {
+            termValue = REFUSE;
+        }
+        return termValue;
+    }
+
     public String configTermTypeAndvalue(String ip, String policerName) {
         return "from/ip:" + ip + ";then/policer:" + policerName;
     }
@@ -73,12 +93,17 @@ public class XmlStructureParserEdit {
         return configAction(termAction);
     }
 
-    public String configInterfacePath(String interfacename, String action) {
+    public String configInterfacePath(String interfacename, String action, String direction) {
         String path = null;
         XmlStructureParser config = new XmlStructureParser();
+        path = PRE + config.getPath("interface") + "[@name="
+                + interfacename + "];unit[@name=0];family;inet;filter;";
         if (action.equals("activate")) {
-            path = PRE + config.getPath("interface") + "[@name="
-                    + interfacename + "];unit[@name=0];family;inet;filter;input";
+            if (direction.equals("input")) {
+                path = path + "input";
+            } else if (direction.equals("output")) {
+                path = path + "output";
+            }
         } else if (action.equals("deactivate")) {
             path = PRE + config.getPath("interface") + "[@name="
                     + interfacename + "];unit[@name=0];family;inet;filter";
