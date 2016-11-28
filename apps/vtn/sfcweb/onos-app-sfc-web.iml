@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="onos-app-sfc-web-1.8.0-SNAPSHOT.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="org.onosproject.onos-app-sfc-web" bundleVersion="1.8.0.SNAPSHOT" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties>
+          <property key="Bundle-Description" value="SFC web application" />
+          <property key="Bundle-Name" value="onos-app-sfc-web" />
+          <property key="Include-Resource" value="sfcwebTopov/css.html=$MODULE_DIR$/src/main/resources/sfcwebTopov/css.html,sfcwebTopov/js.html=$MODULE_DIR$/src/main/resources/sfcwebTopov/js.html,app/view/sfcwebTopov/sfcwebTopovDemo.js=$MODULE_DIR$/src/main/resources/app/view/sfcwebTopov/sfcwebTopovDemo.js,app/view/sfcwebTopov/sfcwebTopov.css=$MODULE_DIR$/src/main/resources/app/view/sfcwebTopov/sfcwebTopov.css,app/view/sfcwebTopov/sfcwebTopovOverlay.js=$MODULE_DIR$/src/main/resources/app/view/sfcwebTopov/sfcwebTopovOverlay.js,app/view/sfcwebTopov/sfcwebTopov.html=$MODULE_DIR$/src/main/resources/app/view/sfcwebTopov/sfcwebTopov.html" />
+        </additionalProperties>
+        <additionalJARContents />
+      </configuration>
+    </facet>
+  </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />

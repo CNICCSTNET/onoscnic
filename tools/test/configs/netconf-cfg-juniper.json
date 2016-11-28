@@ -11,7 +11,7 @@
       "devices":[{
         "driver":"juniper-netconf",
         "name":"zhoujianer",
-        "password":"zjr@cstnet",
+        "password":"zhoujianer1005@cstnet",
         "ip":"159.226.101.32",
         "port":830
       }]

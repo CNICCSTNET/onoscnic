@@ -1,5 +1,199 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/acl" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/bgprouter" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/bmv2-demo/common" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/bmv2-demo/ecmp" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/bmv2-demo/wcmp" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/cip" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/cpman/api" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/cpman/app" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/dhcp/api" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/dhcp/app" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/dhcprelay" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/drivermatrix" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/events" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/faultmanagement/fmcli" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/faultmanagement/fmgui" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/faultmanagement/fmmgr" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/faultmanagement/fmweb" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/flowanalyzer" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/fwd" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/gangliametrics" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/graphitemetrics" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/influxdbmetrics" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/iptopology-api" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/kafka-integration/api" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/kafka-integration/core" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/kafka-integration/web" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/metrics" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/mfwd" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/mlb" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/mobility" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/newoptical" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/openstackinterface/api" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/openstackinterface/app" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/openstacknetworking/api" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/openstacknetworking/routing" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/openstacknetworking/switching" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/openstacknetworking/web" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/openstacknode" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/optical" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/optical-model" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/patchpanel" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/pathpainter" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/pce/app" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/pce/pcerest" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/pce/pceweb" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/pcep-api" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/pim" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/proxyarp" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/rabbitmq" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/reactive-routing" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/routing" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/routing-api" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/scalablegateway" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/sdnip" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/segmentrouting" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/test/demo" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/test/distributed-primitives" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/test/election" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/test/flow-perf" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/test/intent-perf" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/test/loadtest" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/test/messaging-perf" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/test/netcfg-monitor" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/virtualbng" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/vpls" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/vrouter" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/vtn/sfcmgr" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/vtn/sfcweb" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/vtn/vtnmgr" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/vtn/vtnrsc" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/vtn/vtnweb" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/xosclient" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/yms/api" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/apps/yms/app" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/cli" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/core/api" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/core/common" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/core/net" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/core/security" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/core/store/dist" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/core/store/persistence" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/core/store/primitives" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/core/store/serializers" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/drivers/arista" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/drivers/bmv2" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/drivers/bti" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/drivers/ciena" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/drivers/cisco" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/drivers/corsa" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/drivers/default" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/drivers/fujitsu" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/drivers/juniper" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/drivers/lumentum" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/drivers/netconf" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/drivers/optical" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/drivers/ovsdb" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/drivers/utilities" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/incubator/api" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/incubator/core" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/incubator/grpc" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/incubator/net" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/incubator/protobuf" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/incubator/protobuf-nb" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/incubator/rpc" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/incubator/rpc-grpc" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/incubator/rpc-nb" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/incubator/store" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/protocols/bgp/api" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/protocols/bgp/bgpio" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/protocols/bgp/ctl" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/protocols/bmv2/api" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/protocols/bmv2/ctl" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/protocols/bmv2/thrift-api" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/protocols/isis/api" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/protocols/isis/ctl" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/protocols/isis/isisio" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/protocols/lisp/api" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/protocols/lisp/ctl" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/protocols/lisp/msg" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/protocols/netconf/api" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/protocols/netconf/ctl" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/protocols/openflow/api" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/protocols/openflow/ctl" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/protocols/ospf/api" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/protocols/ospf/ctl" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/protocols/ospf/protocol" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/protocols/ovsdb/api" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/protocols/ovsdb/ctl" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/protocols/ovsdb/rfc" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/protocols/pcep/api" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/protocols/pcep/ctl" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/protocols/pcep/pcepio" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/protocols/rest/api" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/protocols/rest/ctl" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/protocols/snmp/api" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/protocols/snmp/ctl" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/bgp/cfg" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/bgp/topology" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/bgpcep/flow" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/bmv2/app" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/bmv2/device" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/bmv2/packet" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/host" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/isis/cfg" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/isis/cli" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/isis/topology" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/link" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/lisp/app" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/lisp/device" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/lldp" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/lldpcommon" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/netcfghost" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/netcfglinks" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/netconf/alarm" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/netconf/app" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/netconf/device" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/null" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/openflow/app" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/openflow/device" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/openflow/flow" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/openflow/group" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/openflow/message" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/openflow/meter" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/openflow/packet" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/ospf/cfg" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/ospf/cli" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/ospf/topology" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/ovsdb/app" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/ovsdb/device" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/ovsdb/host" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/ovsdb/tunnel" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/pcep/topology" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/pcep/tunnel" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/rest/device" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/providers/snmp/device" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/tools/package/branding" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/utils/junit" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/utils/misc" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/utils/osgi" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/utils/rest" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/web/api" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/web/gui" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
@@ -10,23 +204,7 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="jdk1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>jdk1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

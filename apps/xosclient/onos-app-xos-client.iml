@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="onos-app-xos-client-1.8.0-SNAPSHOT.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="org.onosproject.onos-app-xos-client" bundleVersion="1.8.0.SNAPSHOT" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties>
+          <property key="Bundle-Description" value="XOS client service" />
+          <property key="Import-Package" value="!org.apache.http.*,!com.fasterxml.jackson.dataformat.*,!javax.annotation,*" />
+          <property key="Embed-Dependency" value="openstack4j-core,openstack4j-http-connector,openstack4j-httpclient" />
+          <property key="Bundle-Name" value="onos-app-xos-client" />
+          <property key="Bundle-ClassPath" value=".,openstack4j-core-2.11.jar,openstack4j-http-connector-2.11.jar,openstack4j-httpclient-2.11.jar" />
+          <property key="Include-Resource" value="openstack4j-core-2.11.jar=$MAVEN_REPOSITORY$/org/pacesys/openstack4j-core/2.11/openstack4j-core-2.11.jar,openstack4j-http-connector-2.11.jar=$MAVEN_REPOSITORY$/org/pacesys/openstack4j/connectors/openstack4j-http-connector/2.11/openstack4j-http-connector-2.11.jar,openstack4j-httpclient-2.11.jar=$MAVEN_REPOSITORY$/org/pacesys/openstack4j/connectors/openstack4j-httpclient/2.11/openstack4j-httpclient-2.11.jar" />
+          <property key="Embedded-Artifacts" value="openstack4j-core-2.11.jar;g=&quot;org.pacesys&quot;;a=&quot;openstack4j-core&quot;;v=&quot;2.11&quot;,openstack4j-http-connector-2.11.jar;g=&quot;org.pacesys.openstack4j.connectors&quot;;a=&quot;openstack4j-http-connector&quot;;v=&quot;2.11&quot;,openstack4j-httpclient-2.11.jar;g=&quot;org.pacesys.openstack4j.connectors&quot;;a=&quot;openstack4j-httpclient&quot;;v=&quot;2.11&quot;" />
+        </additionalProperties>
+        <additionalJARContents />
+      </configuration>
+    </facet>
+  </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />

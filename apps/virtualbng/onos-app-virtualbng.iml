@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="onos-app-virtualbng-1.8.0-SNAPSHOT.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="org.onosproject.onos-app-virtualbng" bundleVersion="1.8.0.SNAPSHOT" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties>
+          <property key="Bundle-Description" value="A virtual Broadband Network Gateway(BNG) application" />
+          <property key="-wab" value="src/main/webapp/" />
+          <property key="Include-Resource" value="WEB-INF/classes/apidoc/swagger.json=$MODULE_DIR$/target/swagger.json,OSGI-INF/blueprint/shell-config.xml=$MODULE_DIR$/src/main/resources/OSGI-INF/blueprint/shell-config.xml" />
+          <property key="Import-Package" value="*,org.glassfish.jersey.servlet" />
+          <property key="Web-ContextPath" value="/onos/virtualbng" />
+          <property key="Bundle-Name" value="onos-app-virtualbng" />
+        </additionalProperties>
+        <additionalJARContents />
+      </configuration>
+    </facet>
+  </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />

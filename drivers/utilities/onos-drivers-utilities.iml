@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="onos-drivers-utilities-1.8.0-SNAPSHOT.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="org.onosproject.onos-drivers-utilities" bundleVersion="1.8.0.SNAPSHOT" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties>
+          <property key="Bundle-Description" value="Device drivers utilities" />
+          <property key="Bundle-Name" value="onos-drivers-utilities" />
+          <property key="Include-Resource" value="l3vpn-yang-NB/ietf-inet-types.xml=$MODULE_DIR$/src/main/resources/l3vpn-yang-NB/ietf-inet-types.xml,l3vpn-yang-NB/ietf-yang-types.xml=$MODULE_DIR$/src/main/resources/l3vpn-yang-NB/ietf-yang-types.xml,l3vpn-yang-NB/sd-utn-resources-module.xml=$MODULE_DIR$/src/main/resources/l3vpn-yang-NB/sd-utn-resources-module.xml,l3vpn-yang-NB/sd-utn-service-l2vpn.xml=$MODULE_DIR$/src/main/resources/l3vpn-yang-NB/sd-utn-service-l2vpn.xml,l3vpn-yang-NB/sd-utn-service-types.xml=$MODULE_DIR$/src/main/resources/l3vpn-yang-NB/sd-utn-service-types.xml,l3vpn-yang-NB/sd-utn-l3-topology.xml=$MODULE_DIR$/src/main/resources/l3vpn-yang-NB/sd-utn-l3-topology.xml,l3vpn-yang-NB/sd-utn-net-topology.xml=$MODULE_DIR$/src/main/resources/l3vpn-yang-NB/sd-utn-net-topology.xml,l3vpn-yang-NB/sd-utn-common-types.xml=$MODULE_DIR$/src/main/resources/l3vpn-yang-NB/sd-utn-common-types.xml,l3vpn-yang-NB/sd-utn-service-l3vpn.xml=$MODULE_DIR$/src/main/resources/l3vpn-yang-NB/sd-utn-service-l3vpn.xml,yang/acme-system.xml=$MODULE_DIR$/src/main/resources/yang/acme-system.xml,yang/sd-utn-service-l3vpn.xml=$MODULE_DIR$/src/main/resources/yang/sd-utn-service-l3vpn.xml,controllers.xml=$MODULE_DIR$/src/main/resources/controllers.xml" />
+        </additionalProperties>
+        <additionalJARContents />
+      </configuration>
+    </facet>
+  </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />

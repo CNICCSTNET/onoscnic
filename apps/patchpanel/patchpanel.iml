@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="patchpanel-1.8.0-SNAPSHOT.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="org.onosproject.patchpanel" bundleVersion="1.8.0.SNAPSHOT" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties>
+          <property key="Bundle-Description" value="ONOS patch panel application" />
+          <property key="Bundle-Name" value="patchpanel" />
+          <property key="Include-Resource" value="sampleCustom/css.html=$MODULE_DIR$/src/main/resources/sampleCustom/css.html,sampleCustom/js.html=$MODULE_DIR$/src/main/resources/sampleCustom/js.html,OSGI-INF/blueprint/shell-config.xml=$MODULE_DIR$/src/main/resources/OSGI-INF/blueprint/shell-config.xml,app/view/sampleCustom/sampleCustom.js=$MODULE_DIR$/src/main/resources/app/view/sampleCustom/sampleCustom.js,app/view/sampleCustom/sampleCustom.html=$MODULE_DIR$/src/main/resources/app/view/sampleCustom/sampleCustom.html,app/view/sampleCustom/sampleCustom.css=$MODULE_DIR$/src/main/resources/app/view/sampleCustom/sampleCustom.css" />
+        </additionalProperties>
+        <additionalJARContents />
+      </configuration>
+    </facet>
+  </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />

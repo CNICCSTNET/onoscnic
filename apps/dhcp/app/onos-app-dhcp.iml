@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="onos-app-dhcp-1.8.0-SNAPSHOT.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="org.onosproject.onos-app-dhcp" bundleVersion="1.8.0.SNAPSHOT" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties>
+          <property key="Bundle-Description" value="DHCP Server application" />
+          <property key="-wab" value="src/main/webapp/" />
+          <property key="Include-Resource" value="WEB-INF/classes/apidoc/swagger.json=$MODULE_DIR$/target/swagger.json,definitions/DhcpConfigGet.json=$MODULE_DIR$/src/main/resources/definitions/DhcpConfigGet.json,definitions/DhcpConfigGetAvailable.json=$MODULE_DIR$/src/main/resources/definitions/DhcpConfigGetAvailable.json,definitions/DhcpConfigPut.json=$MODULE_DIR$/src/main/resources/definitions/DhcpConfigPut.json,definitions/DhcpConfigGetMappings.json=$MODULE_DIR$/src/main/resources/definitions/DhcpConfigGetMappings.json,OSGI-INF/blueprint/shell-config.xml=$MODULE_DIR$/src/main/resources/OSGI-INF/blueprint/shell-config.xml,gui/css.html=$MODULE_DIR$/src/main/resources/gui/css.html,gui/js.html=$MODULE_DIR$/src/main/resources/gui/js.html,app/view/dhcp/dhcp.js=$MODULE_DIR$/src/main/resources/app/view/dhcp/dhcp.js,app/view/dhcp/dhcp.html=$MODULE_DIR$/src/main/resources/app/view/dhcp/dhcp.html,app/view/dhcp/dhcp.css=$MODULE_DIR$/src/main/resources/app/view/dhcp/dhcp.css" />
+          <property key="Import-Package" value="*,org.glassfish.jersey.servlet" />
+          <property key="Web-ContextPath" value="/onos/dhcp" />
+          <property key="Bundle-Name" value="onos-app-dhcp" />
+        </additionalProperties>
+        <additionalJARContents />
+      </configuration>
+    </facet>
+  </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />

@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/tools/package/archetypes/api/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/tools/package/archetypes/cli/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/tools/package/archetypes/rest/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/tools/package/archetypes/uitab/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/tools/package/archetypes/bundle/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/tools/package/archetypes/uitopo/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/tools/package/archetypes/ui/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
     <resourceExtensions />
     <wildcardResourcePatterns>
       <entry name="!?*.java" />
@@ -17,6 +27,453 @@
       <profile default="true" name="Default" enabled="false">
         <processorPath useClasspath="true" />
       </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="onlab-junit" />
+        <module name="onlab-misc" />
+        <module name="onlab-osgi" />
+        <module name="onlab-rest" />
+        <module name="onos-api" />
+        <module name="onos-api-archetype" />
+        <module name="onos-app-acl" />
+        <module name="onos-app-bgprouter" />
+        <module name="onos-app-bmv2-demo-common" />
+        <module name="onos-app-bmv2-demo-ecmp" />
+        <module name="onos-app-bmv2-demo-wcmp" />
+        <module name="onos-app-cip" />
+        <module name="onos-app-cpman" />
+        <module name="onos-app-cpman-api" />
+        <module name="onos-app-demo" />
+        <module name="onos-app-dhcp" />
+        <module name="onos-app-dhcp-api" />
+        <module name="onos-app-dhcprelay" />
+        <module name="onos-app-distributed-primitives" />
+        <module name="onos-app-drivermatrix" />
+        <module name="onos-app-election" />
+        <module name="onos-app-flow-perf" />
+        <module name="onos-app-flowanalyzer" />
+        <module name="onos-app-fm-cli" />
+        <module name="onos-app-fm-gui" />
+        <module name="onos-app-fm-mgr" />
+        <module name="onos-app-fm-web" />
+        <module name="onos-app-fwd" />
+        <module name="onos-app-ganglia" />
+        <module name="onos-app-graphite" />
+        <module name="onos-app-influxdb" />
+        <module name="onos-app-intent-perf" />
+        <module name="onos-app-iptopology-api" />
+        <module name="onos-app-kafka-api" />
+        <module name="onos-app-kafka-core" />
+        <module name="onos-app-kafka-web" />
+        <module name="onos-app-loadtest" />
+        <module name="onos-app-messaging-perf" />
+        <module name="onos-app-metrics" />
+        <module name="onos-app-mfwd" />
+        <module name="onos-app-mlb" />
+        <module name="onos-app-mobility" />
+        <module name="onos-app-netcfg-monitor" />
+        <module name="onos-app-newoptical" />
+        <module name="onos-app-openstackinterface-api" />
+        <module name="onos-app-openstackinterface-app" />
+        <module name="onos-app-openstacknetworking-api" />
+        <module name="onos-app-openstacknetworking-web" />
+        <module name="onos-app-openstacknode" />
+        <module name="onos-app-openstackrouting" />
+        <module name="onos-app-openstackswitching" />
+        <module name="onos-app-optical" />
+        <module name="onos-app-pce" />
+        <module name="onos-app-pcep-api" />
+        <module name="onos-app-pcerest" />
+        <module name="onos-app-pceweb" />
+        <module name="onos-app-pim" />
+        <module name="onos-app-pp" />
+        <module name="onos-app-proxyarp" />
+        <module name="onos-app-rabbitmq" />
+        <module name="onos-app-reactive-routing" />
+        <module name="onos-app-routing" />
+        <module name="onos-app-routing-api" />
+        <module name="onos-app-scalablegateway" />
+        <module name="onos-app-sdnip" />
+        <module name="onos-app-segmentrouting" />
+        <module name="onos-app-sfc-mgr" />
+        <module name="onos-app-sfc-web" />
+        <module name="onos-app-virtualbng" />
+        <module name="onos-app-vpls" />
+        <module name="onos-app-vrouter" />
+        <module name="onos-app-vtn-mgr" />
+        <module name="onos-app-vtn-rsc" />
+        <module name="onos-app-vtn-web" />
+        <module name="onos-app-xos-client" />
+        <module name="onos-app-yms" />
+        <module name="onos-app-yms-api" />
+        <module name="onos-bgp-api" />
+        <module name="onos-bgp-ctl" />
+        <module name="onos-bgp-provider-cfg" />
+        <module name="onos-bgp-provider-topology" />
+        <module name="onos-bgpcep-provider-flow" />
+        <module name="onos-bgpio" />
+        <module name="onos-bmv2-app" />
+        <module name="onos-bmv2-protocol-api" />
+        <module name="onos-bmv2-protocol-ctl" />
+        <module name="onos-bmv2-protocol-thrift-api" />
+        <module name="onos-bmv2-provider-device" />
+        <module name="onos-bmv2-provider-packet" />
+        <module name="onos-branding" />
+        <module name="onos-bundle-archetype" />
+        <module name="onos-cli" />
+        <module name="onos-cli-archetype" />
+        <module name="onos-core-common" />
+        <module name="onos-core-dist" />
+        <module name="onos-core-net" />
+        <module name="onos-core-persistence" />
+        <module name="onos-core-primitives" />
+        <module name="onos-core-serializers" />
+        <module name="onos-drivers" />
+        <module name="onos-drivers-arista" />
+        <module name="onos-drivers-bmv2" />
+        <module name="onos-drivers-bti" />
+        <module name="onos-drivers-ciena" />
+        <module name="onos-drivers-cisco" />
+        <module name="onos-drivers-corsa" />
+        <module name="onos-drivers-fujitsu" />
+        <module name="onos-drivers-juniper" />
+        <module name="onos-drivers-lumentum" />
+        <module name="onos-drivers-netconf" />
+        <module name="onos-drivers-optical" />
+        <module name="onos-drivers-ovsdb" />
+        <module name="onos-drivers-utilities" />
+        <module name="onos-events" />
+        <module name="onos-gui" />
+        <module name="onos-host-provider" />
+        <module name="onos-incubator-api" />
+        <module name="onos-incubator-core" />
+        <module name="onos-incubator-grpc" />
+        <module name="onos-incubator-net" />
+        <module name="onos-incubator-protobuf" />
+        <module name="onos-incubator-protobuf-nb" />
+        <module name="onos-incubator-rpc" />
+        <module name="onos-incubator-rpc-grpc" />
+        <module name="onos-incubator-rpc-nb" />
+        <module name="onos-incubator-store" />
+        <module name="onos-isis-api" />
+        <module name="onos-isis-ctl" />
+        <module name="onos-isis-isisio" />
+        <module name="onos-isis-provider-cfg" />
+        <module name="onos-isis-provider-cli" />
+        <module name="onos-isis-provider-topology" />
+        <module name="onos-linkdiscovery-provider" />
+        <module name="onos-lisp-api" />
+        <module name="onos-lisp-app" />
+        <module name="onos-lisp-ctl" />
+        <module name="onos-lisp-msg" />
+        <module name="onos-lisp-provider-device" />
+        <module name="onos-lldp-provider" />
+        <module name="onos-lldp-provider-common" />
+        <module name="onos-netcfg-host-provider" />
+        <module name="onos-netcfg-links-provider" />
+        <module name="onos-netconf-api" />
+        <module name="onos-netconf-app" />
+        <module name="onos-netconf-ctl" />
+        <module name="onos-netconf-provider-alarm" />
+        <module name="onos-netconf-provider-device" />
+        <module name="onos-null-provider" />
+        <module name="onos-of-api" />
+        <module name="onos-of-ctl" />
+        <module name="onos-of-provider-device" />
+        <module name="onos-of-provider-flow" />
+        <module name="onos-of-provider-group" />
+        <module name="onos-of-provider-message" />
+        <module name="onos-of-provider-meter" />
+        <module name="onos-of-provider-packet" />
+        <module name="onos-openflow" />
+        <module name="onos-optical-model" />
+        <module name="onos-ospf-api" />
+        <module name="onos-ospf-ctl" />
+        <module name="onos-ospf-protocol" />
+        <module name="onos-ospf-provider-cfg" />
+        <module name="onos-ospf-provider-cli" />
+        <module name="onos-ospf-provider-topology" />
+        <module name="onos-ovsdatabase" />
+        <module name="onos-ovsdb-api" />
+        <module name="onos-ovsdb-ctl" />
+        <module name="onos-ovsdb-provider-device" />
+        <module name="onos-ovsdb-provider-host" />
+        <module name="onos-ovsdb-provider-tunnel" />
+        <module name="onos-ovsdb-rfc" />
+        <module name="onos-pcep-controller-api" />
+        <module name="onos-pcep-controller-impl" />
+        <module name="onos-pcep-provider-topology" />
+        <module name="onos-pcep-provider-tunnel" />
+        <module name="onos-pcepio" />
+        <module name="onos-rest" />
+        <module name="onos-rest-archetype" />
+        <module name="onos-restsb-api" />
+        <module name="onos-restsb-ctl" />
+        <module name="onos-restsb-provider-device" />
+        <module name="onos-security" />
+        <module name="onos-snmp-api" />
+        <module name="onos-snmp-ctl" />
+        <module name="onos-snmp-provider-device" />
+        <module name="onos-ui-archetype" />
+        <module name="onos-uitab-archetype" />
+        <module name="onos-uitopo-archetype" />
+        <module name="osgiwrap" />
+        <module name="patchpanel" />
+      </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="onlab-junit" target="1.8" />
+      <module name="onlab-misc" target="1.8" />
+      <module name="onlab-osgi" target="1.8" />
+      <module name="onlab-rest" target="1.8" />
+      <module name="onlab-utils" target="1.5" />
+      <module name="onos" target="1.5" />
+      <module name="onos-api" target="1.8" />
+      <module name="onos-api-archetype" target="1.5" />
+      <module name="onos-app-acl" target="1.8" />
+      <module name="onos-app-bgprouter" target="1.8" />
+      <module name="onos-app-bmv2-demo" target="1.5" />
+      <module name="onos-app-bmv2-demo-common" target="1.8" />
+      <module name="onos-app-bmv2-demo-ecmp" target="1.8" />
+      <module name="onos-app-bmv2-demo-wcmp" target="1.8" />
+      <module name="onos-app-cip" target="1.8" />
+      <module name="onos-app-cpman" target="1.8" />
+      <module name="onos-app-cpman-api" target="1.8" />
+      <module name="onos-app-demo" target="1.8" />
+      <module name="onos-app-dhcp" target="1.8" />
+      <module name="onos-app-dhcp-api" target="1.8" />
+      <module name="onos-app-dhcprelay" target="1.8" />
+      <module name="onos-app-distributed-primitives" target="1.8" />
+      <module name="onos-app-drivermatrix" target="1.8" />
+      <module name="onos-app-election" target="1.8" />
+      <module name="onos-app-flow-perf" target="1.8" />
+      <module name="onos-app-flowanalyzer" target="1.8" />
+      <module name="onos-app-fm" target="1.5" />
+      <module name="onos-app-fm-cli" target="1.8" />
+      <module name="onos-app-fm-gui" target="1.8" />
+      <module name="onos-app-fm-mgr" target="1.8" />
+      <module name="onos-app-fm-onosfw" target="1.5" />
+      <module name="onos-app-fm-web" target="1.8" />
+      <module name="onos-app-fwd" target="1.8" />
+      <module name="onos-app-ganglia" target="1.8" />
+      <module name="onos-app-graphite" target="1.8" />
+      <module name="onos-app-influxdb" target="1.8" />
+      <module name="onos-app-intent-perf" target="1.8" />
+      <module name="onos-app-iptopology-api" target="1.8" />
+      <module name="onos-app-kafka" target="1.5" />
+      <module name="onos-app-kafka-api" target="1.8" />
+      <module name="onos-app-kafka-core" target="1.8" />
+      <module name="onos-app-kafka-web" target="1.8" />
+      <module name="onos-app-loadtest" target="1.8" />
+      <module name="onos-app-messaging-perf" target="1.8" />
+      <module name="onos-app-metrics" target="1.8" />
+      <module name="onos-app-mfwd" target="1.8" />
+      <module name="onos-app-mlb" target="1.8" />
+      <module name="onos-app-mobility" target="1.8" />
+      <module name="onos-app-netcfg-monitor" target="1.8" />
+      <module name="onos-app-newoptical" target="1.8" />
+      <module name="onos-app-openstackinterface" target="1.5" />
+      <module name="onos-app-openstackinterface-api" target="1.8" />
+      <module name="onos-app-openstackinterface-app" target="1.8" />
+      <module name="onos-app-openstacknetworking" target="1.5" />
+      <module name="onos-app-openstacknetworking-api" target="1.8" />
+      <module name="onos-app-openstacknetworking-web" target="1.8" />
+      <module name="onos-app-openstacknode" target="1.8" />
+      <module name="onos-app-openstackrouting" target="1.8" />
+      <module name="onos-app-openstackswitching" target="1.8" />
+      <module name="onos-app-optical" target="1.8" />
+      <module name="onos-app-pce" target="1.8" />
+      <module name="onos-app-pcep-api" target="1.8" />
+      <module name="onos-app-pcerest" target="1.8" />
+      <module name="onos-app-pceweb" target="1.8" />
+      <module name="onos-app-pim" target="1.8" />
+      <module name="onos-app-pp" target="1.8" />
+      <module name="onos-app-proxyarp" target="1.8" />
+      <module name="onos-app-rabbitmq" target="1.8" />
+      <module name="onos-app-reactive-routing" target="1.8" />
+      <module name="onos-app-routing" target="1.8" />
+      <module name="onos-app-routing-api" target="1.8" />
+      <module name="onos-app-scalablegateway" target="1.8" />
+      <module name="onos-app-sdnip" target="1.8" />
+      <module name="onos-app-segmentrouting" target="1.8" />
+      <module name="onos-app-sfc-mgr" target="1.8" />
+      <module name="onos-app-sfc-web" target="1.8" />
+      <module name="onos-app-virtualbng" target="1.8" />
+      <module name="onos-app-vpls" target="1.8" />
+      <module name="onos-app-vrouter" target="1.8" />
+      <module name="onos-app-vtn" target="1.5" />
+      <module name="onos-app-vtn-mgr" target="1.8" />
+      <module name="onos-app-vtn-onosfw" target="1.5" />
+      <module name="onos-app-vtn-rsc" target="1.8" />
+      <module name="onos-app-vtn-web" target="1.8" />
+      <module name="onos-app-xos-client" target="1.8" />
+      <module name="onos-app-yms" target="1.8" />
+      <module name="onos-app-yms-api" target="1.8" />
+      <module name="onos-apps" target="1.5" />
+      <module name="onos-apps-test" target="1.5" />
+      <module name="onos-archetypes" target="1.5" />
+      <module name="onos-bgp" target="1.5" />
+      <module name="onos-bgp-api" target="1.8" />
+      <module name="onos-bgp-app" target="1.5" />
+      <module name="onos-bgp-ctl" target="1.8" />
+      <module name="onos-bgp-provider-cfg" target="1.8" />
+      <module name="onos-bgp-provider-topology" target="1.8" />
+      <module name="onos-bgp-providers" target="1.5" />
+      <module name="onos-bgpcep-app" target="1.5" />
+      <module name="onos-bgpcep-provider-flow" target="1.8" />
+      <module name="onos-bgpcep-providers" target="1.5" />
+      <module name="onos-bgpio" target="1.8" />
+      <module name="onos-bmv2-app" target="1.8" />
+      <module name="onos-bmv2-protocol" target="1.5" />
+      <module name="onos-bmv2-protocol-api" target="1.8" />
+      <module name="onos-bmv2-protocol-ctl" target="1.8" />
+      <module name="onos-bmv2-protocol-thrift-api" target="1.8" />
+      <module name="onos-bmv2-provider-device" target="1.8" />
+      <module name="onos-bmv2-provider-packet" target="1.8" />
+      <module name="onos-bmv2-providers" target="1.5" />
+      <module name="onos-branding" target="1.8" />
+      <module name="onos-bundle-archetype" target="1.5" />
+      <module name="onos-cli" target="1.8" />
+      <module name="onos-cli-archetype" target="1.5" />
+      <module name="onos-core" target="1.5" />
+      <module name="onos-core-common" target="1.8" />
+      <module name="onos-core-dist" target="1.8" />
+      <module name="onos-core-net" target="1.8" />
+      <module name="onos-core-persistence" target="1.8" />
+      <module name="onos-core-primitives" target="1.8" />
+      <module name="onos-core-serializers" target="1.8" />
+      <module name="onos-core-store" target="1.5" />
+      <module name="onos-cpman" target="1.5" />
+      <module name="onos-dependencies" target="1.5" />
+      <module name="onos-dhcp" target="1.5" />
+      <module name="onos-drivers" target="1.8" />
+      <module name="onos-drivers-arista" target="1.8" />
+      <module name="onos-drivers-bmv2" target="1.8" />
+      <module name="onos-drivers-bti" target="1.8" />
+      <module name="onos-drivers-ciena" target="1.8" />
+      <module name="onos-drivers-cisco" target="1.8" />
+      <module name="onos-drivers-corsa" target="1.8" />
+      <module name="onos-drivers-fujitsu" target="1.8" />
+      <module name="onos-drivers-general" target="1.5" />
+      <module name="onos-drivers-juniper" target="1.8" />
+      <module name="onos-drivers-lumentum" target="1.8" />
+      <module name="onos-drivers-netconf" target="1.8" />
+      <module name="onos-drivers-optical" target="1.8" />
+      <module name="onos-drivers-ovsdb" target="1.8" />
+      <module name="onos-drivers-utilities" target="1.8" />
+      <module name="onos-events" target="1.8" />
+      <module name="onos-features" target="1.5" />
+      <module name="onos-gui" target="1.8" />
+      <module name="onos-host-provider" target="1.8" />
+      <module name="onos-incubator" target="1.5" />
+      <module name="onos-incubator-api" target="1.8" />
+      <module name="onos-incubator-core" target="1.8" />
+      <module name="onos-incubator-grpc" target="1.8" />
+      <module name="onos-incubator-net" target="1.8" />
+      <module name="onos-incubator-protobuf" target="1.8" />
+      <module name="onos-incubator-protobuf-nb" target="1.8" />
+      <module name="onos-incubator-rpc" target="1.8" />
+      <module name="onos-incubator-rpc-grpc" target="1.8" />
+      <module name="onos-incubator-rpc-nb" target="1.8" />
+      <module name="onos-incubator-store" target="1.8" />
+      <module name="onos-isis" target="1.5" />
+      <module name="onos-isis-api" target="1.8" />
+      <module name="onos-isis-app" target="1.5" />
+      <module name="onos-isis-ctl" target="1.8" />
+      <module name="onos-isis-isisio" target="1.8" />
+      <module name="onos-isis-provider-cfg" target="1.8" />
+      <module name="onos-isis-provider-cli" target="1.8" />
+      <module name="onos-isis-provider-topology" target="1.8" />
+      <module name="onos-isis-providers" target="1.5" />
+      <module name="onos-kafka" target="1.5" />
+      <module name="onos-linkdiscovery-provider" target="1.8" />
+      <module name="onos-lisp" target="1.5" />
+      <module name="onos-lisp-api" target="1.8" />
+      <module name="onos-lisp-app" target="1.8" />
+      <module name="onos-lisp-ctl" target="1.8" />
+      <module name="onos-lisp-msg" target="1.8" />
+      <module name="onos-lisp-provider-device" target="1.8" />
+      <module name="onos-lisp-providers" target="1.5" />
+      <module name="onos-lldp-provider" target="1.8" />
+      <module name="onos-lldp-provider-common" target="1.8" />
+      <module name="onos-netcfg-host-provider" target="1.8" />
+      <module name="onos-netcfg-links-provider" target="1.8" />
+      <module name="onos-netconf" target="1.5" />
+      <module name="onos-netconf-api" target="1.8" />
+      <module name="onos-netconf-app" target="1.8" />
+      <module name="onos-netconf-ctl" target="1.8" />
+      <module name="onos-netconf-provider-alarm" target="1.8" />
+      <module name="onos-netconf-provider-device" target="1.8" />
+      <module name="onos-netconf-providers" target="1.5" />
+      <module name="onos-null-provider" target="1.8" />
+      <module name="onos-of" target="1.5" />
+      <module name="onos-of-api" target="1.8" />
+      <module name="onos-of-ctl" target="1.8" />
+      <module name="onos-of-provider-device" target="1.8" />
+      <module name="onos-of-provider-flow" target="1.8" />
+      <module name="onos-of-provider-group" target="1.8" />
+      <module name="onos-of-provider-message" target="1.8" />
+      <module name="onos-of-provider-meter" target="1.8" />
+      <module name="onos-of-provider-packet" target="1.8" />
+      <module name="onos-of-providers" target="1.5" />
+      <module name="onos-openflow" target="1.8" />
+      <module name="onos-openflow-base" target="1.5" />
+      <module name="onos-optical-model" target="1.8" />
+      <module name="onos-ospf" target="1.5" />
+      <module name="onos-ospf-api" target="1.8" />
+      <module name="onos-ospf-app" target="1.5" />
+      <module name="onos-ospf-ctl" target="1.8" />
+      <module name="onos-ospf-protocol" target="1.8" />
+      <module name="onos-ospf-provider-cfg" target="1.8" />
+      <module name="onos-ospf-provider-cli" target="1.8" />
+      <module name="onos-ospf-provider-topology" target="1.8" />
+      <module name="onos-ospf-providers" target="1.5" />
+      <module name="onos-ovsdatabase" target="1.8" />
+      <module name="onos-ovsdb" target="1.5" />
+      <module name="onos-ovsdb-api" target="1.8" />
+      <module name="onos-ovsdb-base" target="1.5" />
+      <module name="onos-ovsdb-ctl" target="1.8" />
+      <module name="onos-ovsdb-provider-device" target="1.8" />
+      <module name="onos-ovsdb-provider-host" target="1.8" />
+      <module name="onos-ovsdb-provider-tunnel" target="1.8" />
+      <module name="onos-ovsdb-providers" target="1.5" />
+      <module name="onos-ovsdb-rfc" target="1.8" />
+      <module name="onos-pce" target="1.5" />
+      <module name="onos-pcep" target="1.5" />
+      <module name="onos-pcep-controller" target="1.5" />
+      <module name="onos-pcep-controller-api" target="1.8" />
+      <module name="onos-pcep-controller-impl" target="1.8" />
+      <module name="onos-pcep-provider-topology" target="1.8" />
+      <module name="onos-pcep-provider-tunnel" target="1.8" />
+      <module name="onos-pcep-providers" target="1.5" />
+      <module name="onos-pcepio" target="1.8" />
+      <module name="onos-protocols" target="1.5" />
+      <module name="onos-providers" target="1.5" />
+      <module name="onos-rest" target="1.8" />
+      <module name="onos-rest-archetype" target="1.5" />
+      <module name="onos-restsb" target="1.5" />
+      <module name="onos-restsb-api" target="1.8" />
+      <module name="onos-restsb-app" target="1.5" />
+      <module name="onos-restsb-ctl" target="1.8" />
+      <module name="onos-restsb-provider-device" target="1.8" />
+      <module name="onos-restsb-providers" target="1.5" />
+      <module name="onos-security" target="1.8" />
+      <module name="onos-snmp-api" target="1.8" />
+      <module name="onos-snmp-app" target="1.5" />
+      <module name="onos-snmp-ctl" target="1.8" />
+      <module name="onos-snmp-protocol" target="1.5" />
+      <module name="onos-snmp-provider-device" target="1.8" />
+      <module name="onos-snmp-providers" target="1.5" />
+      <module name="onos-ui-archetype" target="1.5" />
+      <module name="onos-uitab-archetype" target="1.5" />
+      <module name="onos-uitopo-archetype" target="1.5" />
+      <module name="onos-web" target="1.5" />
+      <module name="onos-yms" target="1.5" />
+      <module name="osgiwrap" target="1.8" />
+      <module name="patchpanel" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

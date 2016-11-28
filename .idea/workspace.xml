@@ -1,20 +1,713 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f87235e9-7e75-483e-a398-67c6c01192cf" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/XmlParserJuniper.java" afterPath="$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/tools/XmlParserJuniper.java" />
+    <list default="true" id="522c18b7-4aa4-48cf-8dbd-67c45a6536d0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__biz_aQute_bnd_biz_aQute_bndlib_3_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_ethz_ganymed_ganymed_ssh2_262.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_btisystems_mibbler_mibs_bti7000_1_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_btisystems_mibbler_mibs_net_snmp_1_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_btisystems_mibbler_mibs_rfc_1_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_btisystems_snmp_core_1_3_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_eclipsesource_minimal_json_minimal_json_0_9_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_4_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_reflectasm_1_11_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_4_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auth_google_auth_library_credentials_0_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_6_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_testlib_19_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_util_3_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_concurrent_trees_concurrent_trees_2_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_izettle_metrics_influxdb_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_3_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp_okhttp_2_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_retrofit_retrofit_1_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_ganglia_gmetric4j_gmetric4j_1_0_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_atomix_atomix_1_0_0_rc9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_atomix_atomix_collections_1_0_0_rc9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_atomix_atomix_concurrent_1_0_0_rc9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_atomix_atomix_groups_1_0_0_rc9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_atomix_atomix_resource_1_0_0_rc9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_atomix_atomix_resource_manager_1_0_0_rc9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_atomix_atomix_variables_1_0_0_rc9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_atomix_catalyst_catalyst_buffer_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_atomix_catalyst_catalyst_common_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_atomix_catalyst_catalyst_concurrent_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_atomix_catalyst_catalyst_local_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_atomix_catalyst_catalyst_netty_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_atomix_catalyst_catalyst_serializer_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_atomix_catalyst_catalyst_transport_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_atomix_copycat_copycat_client_1_1_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_atomix_copycat_copycat_protocol_1_1_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_atomix_copycat_copycat_server_1_1_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_3_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_ganglia_3_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_graphite_3_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_json_3_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_auth_1_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_core_1_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_netty_1_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_protobuf_1_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_protobuf_lite_1_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_stub_1_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_10_5_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_0_40_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_3_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_0_40_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_3_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_3_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_3_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_0_40_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_3_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_0_40_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_3_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_3_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_0_40_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_3_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_0_40_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_2_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_acplt_remotetea_remotetea_oncrpc_1_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_felix_org_apache_felix_fileinstall_3_5_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_felix_org_apache_felix_framework_4_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_felix_org_apache_felix_scr_1_8_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_felix_org_apache_felix_scr_annotations_1_9_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_fluent_hc_4_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_3_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_4_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_cache_4_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_osgi_4_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_osgi_4_4_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_karaf_features_org_apache_karaf_features_core_3_0_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_karaf_jaas_org_apache_karaf_jaas_config_3_0_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_karaf_jaas_org_apache_karaf_jaas_modules_3_0_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_karaf_shell_org_apache_karaf_shell_console_3_0_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_karaf_system_org_apache_karaf_system_core_3_0_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_servicemix_bundles_org_apache_servicemix_bundles_kafka_clients_0_8_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_servicemix_bundles_org_apache_servicemix_bundles_snmp4j_2_3_4_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_sshd_sshd_core_0_14_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_thrift_libthrift_0_9_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_easymock_easymock_3_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_9_1_1_v20140108.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_8_1_19_v20160209.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_1_1_v20140108.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_8_1_19_v20160209.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_1_1_v20140108.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_1_1_v20140108.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_8_1_19_v20160209.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_1_1_v20140108.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_websocket_8_1_19_v20160209.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_jansi_jansi_1_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_4_0_b34.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_4_0_b34.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_4_0_b34.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_4_0_b34.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_4_0_b34.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_22_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_jetty_http_2_22_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_2_22_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_core_2_22_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_22_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_22_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_2_22_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_jaxb_2_22_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_multipart_2_22_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_test_framework_jersey_test_framework_core_2_22_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_test_framework_providers_jersey_test_framework_provider_jetty_2_22_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_influxdb_influxdb_java_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_mimepull_mimepull_1_9_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapdb_mapdb_1_0_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_onosproject_cord_config_1_0_b1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_onosproject_openflowj_0_9_5_onos.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_onosproject_org_apache_felix_framework_security_2_2_0_onos.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_onosproject_org_apache_felix_scr_bnd_1_4_1_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_osgi_org_osgi_compendium_5_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_osgi_org_osgi_core_5_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_debug_all_5_0_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_pacesys_openstack4j_connectors_openstack4j_http_connector_2_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_pacesys_openstack4j_connectors_openstack4j_httpclient_2_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_pacesys_openstack4j_core_2_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_rrd4j_rrd4j_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_jdk14_1_7_21.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cli/src/main/java/org/onosproject/cli/net/CommitRouterCommand.java" afterPath="$PROJECT_DIR$/cli/src/main/java/org/onosproject/cli/net/CommitRouterCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/api/src/main/java/org/onosproject/net/behaviour/CommitRouter.java" afterPath="$PROJECT_DIR$/core/api/src/main/java/org/onosproject/net/behaviour/CommitRouter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/ConfigDetailGetterJuniperImpl.java" afterPath="$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/ConfigDetailGetterJuniperImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/ConfigDetailSetterJuniperImpl.java" afterPath="$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/ConfigDetailSetterJuniperImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/JuniperCommitImpl.java" afterPath="$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/JuniperCommitImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/SpeedLimitAction.java" afterPath="$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/SpeedLimitAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/tools/EditXmlCreateJuniper.java" afterPath="$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/tools/EditXmlCreateJuniper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/acl/onos-app-acl.iml" afterPath="$PROJECT_DIR$/apps/acl/onos-app-acl.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/bgprouter/onos-app-bgprouter.iml" afterPath="$PROJECT_DIR$/apps/bgprouter/onos-app-bgprouter.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/bmv2-demo/common/onos-app-bmv2-demo-common.iml" afterPath="$PROJECT_DIR$/apps/bmv2-demo/common/onos-app-bmv2-demo-common.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/bmv2-demo/ecmp/onos-app-bmv2-demo-ecmp.iml" afterPath="$PROJECT_DIR$/apps/bmv2-demo/ecmp/onos-app-bmv2-demo-ecmp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/bmv2-demo/onos-app-bmv2-demo.iml" afterPath="$PROJECT_DIR$/apps/bmv2-demo/onos-app-bmv2-demo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/bmv2-demo/wcmp/onos-app-bmv2-demo-wcmp.iml" afterPath="$PROJECT_DIR$/apps/bmv2-demo/wcmp/onos-app-bmv2-demo-wcmp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/cip/onos-app-cip.iml" afterPath="$PROJECT_DIR$/apps/cip/onos-app-cip.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/cpman/api/onos-app-cpman-api.iml" afterPath="$PROJECT_DIR$/apps/cpman/api/onos-app-cpman-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/cpman/app/onos-app-cpman.iml" afterPath="$PROJECT_DIR$/apps/cpman/app/onos-app-cpman.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/cpman/onos-cpman.iml" afterPath="$PROJECT_DIR$/apps/cpman/onos-cpman.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/dhcp/api/onos-app-dhcp-api.iml" afterPath="$PROJECT_DIR$/apps/dhcp/api/onos-app-dhcp-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/dhcp/app/onos-app-dhcp.iml" afterPath="$PROJECT_DIR$/apps/dhcp/app/onos-app-dhcp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/dhcp/onos-dhcp.iml" afterPath="$PROJECT_DIR$/apps/dhcp/onos-dhcp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/dhcprelay/onos-app-dhcprelay.iml" afterPath="$PROJECT_DIR$/apps/dhcprelay/onos-app-dhcprelay.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/drivermatrix/onos-app-drivermatrix.iml" afterPath="$PROJECT_DIR$/apps/drivermatrix/onos-app-drivermatrix.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/events/onos-events.iml" afterPath="$PROJECT_DIR$/apps/events/onos-events.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/faultmanagement/app/onos-app-fm-onosfw.iml" afterPath="$PROJECT_DIR$/apps/faultmanagement/app/onos-app-fm-onosfw.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/faultmanagement/fmcli/onos-app-fm-cli.iml" afterPath="$PROJECT_DIR$/apps/faultmanagement/fmcli/onos-app-fm-cli.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/faultmanagement/fmgui/onos-app-fm-gui.iml" afterPath="$PROJECT_DIR$/apps/faultmanagement/fmgui/onos-app-fm-gui.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/faultmanagement/fmmgr/onos-app-fm-mgr.iml" afterPath="$PROJECT_DIR$/apps/faultmanagement/fmmgr/onos-app-fm-mgr.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/faultmanagement/fmweb/onos-app-fm-web.iml" afterPath="$PROJECT_DIR$/apps/faultmanagement/fmweb/onos-app-fm-web.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/faultmanagement/onos-app-fm.iml" afterPath="$PROJECT_DIR$/apps/faultmanagement/onos-app-fm.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/flowanalyzer/onos-app-flowanalyzer.iml" afterPath="$PROJECT_DIR$/apps/flowanalyzer/onos-app-flowanalyzer.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/fwd/onos-app-fwd.iml" afterPath="$PROJECT_DIR$/apps/fwd/onos-app-fwd.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gangliametrics/onos-app-ganglia.iml" afterPath="$PROJECT_DIR$/apps/gangliametrics/onos-app-ganglia.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/graphitemetrics/onos-app-graphite.iml" afterPath="$PROJECT_DIR$/apps/graphitemetrics/onos-app-graphite.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/influxdbmetrics/onos-app-influxdb.iml" afterPath="$PROJECT_DIR$/apps/influxdbmetrics/onos-app-influxdb.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/iptopology-api/onos-app-iptopology-api.iml" afterPath="$PROJECT_DIR$/apps/iptopology-api/onos-app-iptopology-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/kafka-integration/api/onos-app-kafka-api.iml" afterPath="$PROJECT_DIR$/apps/kafka-integration/api/onos-app-kafka-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/kafka-integration/app/onos-app-kafka.iml" afterPath="$PROJECT_DIR$/apps/kafka-integration/app/onos-app-kafka.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/kafka-integration/core/onos-app-kafka-core.iml" afterPath="$PROJECT_DIR$/apps/kafka-integration/core/onos-app-kafka-core.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/kafka-integration/onos-kafka.iml" afterPath="$PROJECT_DIR$/apps/kafka-integration/onos-kafka.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/kafka-integration/web/onos-app-kafka-web.iml" afterPath="$PROJECT_DIR$/apps/kafka-integration/web/onos-app-kafka-web.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/metrics/onos-app-metrics.iml" afterPath="$PROJECT_DIR$/apps/metrics/onos-app-metrics.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/mfwd/onos-app-mfwd.iml" afterPath="$PROJECT_DIR$/apps/mfwd/onos-app-mfwd.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/mlb/onos-app-mlb.iml" afterPath="$PROJECT_DIR$/apps/mlb/onos-app-mlb.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/mobility/onos-app-mobility.iml" afterPath="$PROJECT_DIR$/apps/mobility/onos-app-mobility.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/newoptical/onos-app-newoptical.iml" afterPath="$PROJECT_DIR$/apps/newoptical/onos-app-newoptical.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/onos-apps.iml" afterPath="$PROJECT_DIR$/apps/onos-apps.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/openstackinterface/api/onos-app-openstackinterface-api.iml" afterPath="$PROJECT_DIR$/apps/openstackinterface/api/onos-app-openstackinterface-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/openstackinterface/app/onos-app-openstackinterface-app.iml" afterPath="$PROJECT_DIR$/apps/openstackinterface/app/onos-app-openstackinterface-app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/openstackinterface/onos-app-openstackinterface.iml" afterPath="$PROJECT_DIR$/apps/openstackinterface/onos-app-openstackinterface.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/openstacknetworking/api/onos-app-openstacknetworking-api.iml" afterPath="$PROJECT_DIR$/apps/openstacknetworking/api/onos-app-openstacknetworking-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/openstacknetworking/onos-app-openstacknetworking.iml" afterPath="$PROJECT_DIR$/apps/openstacknetworking/onos-app-openstacknetworking.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/openstacknetworking/routing/onos-app-openstackrouting.iml" afterPath="$PROJECT_DIR$/apps/openstacknetworking/routing/onos-app-openstackrouting.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/openstacknetworking/switching/onos-app-openstackswitching.iml" afterPath="$PROJECT_DIR$/apps/openstacknetworking/switching/onos-app-openstackswitching.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/openstacknetworking/web/onos-app-openstacknetworking-web.iml" afterPath="$PROJECT_DIR$/apps/openstacknetworking/web/onos-app-openstacknetworking-web.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/openstacknode/onos-app-openstacknode.iml" afterPath="$PROJECT_DIR$/apps/openstacknode/onos-app-openstacknode.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/optical-model/onos-optical-model.iml" afterPath="$PROJECT_DIR$/apps/optical-model/onos-optical-model.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/optical/onos-app-optical.iml" afterPath="$PROJECT_DIR$/apps/optical/onos-app-optical.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/patchpanel/patchpanel.iml" afterPath="$PROJECT_DIR$/apps/patchpanel/patchpanel.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/pathpainter/onos-app-pp.iml" afterPath="$PROJECT_DIR$/apps/pathpainter/onos-app-pp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/pce/app/onos-app-pce.iml" afterPath="$PROJECT_DIR$/apps/pce/app/onos-app-pce.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/pce/onos-pce.iml" afterPath="$PROJECT_DIR$/apps/pce/onos-pce.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/pce/pcerest/onos-app-pcerest.iml" afterPath="$PROJECT_DIR$/apps/pce/pcerest/onos-app-pcerest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/pce/pceweb/onos-app-pceweb.iml" afterPath="$PROJECT_DIR$/apps/pce/pceweb/onos-app-pceweb.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/pcep-api/onos-app-pcep-api.iml" afterPath="$PROJECT_DIR$/apps/pcep-api/onos-app-pcep-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/pim/onos-app-pim.iml" afterPath="$PROJECT_DIR$/apps/pim/onos-app-pim.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/proxyarp/onos-app-proxyarp.iml" afterPath="$PROJECT_DIR$/apps/proxyarp/onos-app-proxyarp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/rabbitmq/onos-app-rabbitmq.iml" afterPath="$PROJECT_DIR$/apps/rabbitmq/onos-app-rabbitmq.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/reactive-routing/onos-app-reactive-routing.iml" afterPath="$PROJECT_DIR$/apps/reactive-routing/onos-app-reactive-routing.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/routing-api/onos-app-routing-api.iml" afterPath="$PROJECT_DIR$/apps/routing-api/onos-app-routing-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/routing/onos-app-routing.iml" afterPath="$PROJECT_DIR$/apps/routing/onos-app-routing.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/scalablegateway/onos-app-scalablegateway.iml" afterPath="$PROJECT_DIR$/apps/scalablegateway/onos-app-scalablegateway.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/sdnip/onos-app-sdnip.iml" afterPath="$PROJECT_DIR$/apps/sdnip/onos-app-sdnip.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/segmentrouting/onos-app-segmentrouting.iml" afterPath="$PROJECT_DIR$/apps/segmentrouting/onos-app-segmentrouting.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/test/demo/onos-app-demo.iml" afterPath="$PROJECT_DIR$/apps/test/demo/onos-app-demo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/test/distributed-primitives/onos-app-distributed-primitives.iml" afterPath="$PROJECT_DIR$/apps/test/distributed-primitives/onos-app-distributed-primitives.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/test/election/onos-app-election.iml" afterPath="$PROJECT_DIR$/apps/test/election/onos-app-election.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/test/flow-perf/onos-app-flow-perf.iml" afterPath="$PROJECT_DIR$/apps/test/flow-perf/onos-app-flow-perf.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/test/intent-perf/onos-app-intent-perf.iml" afterPath="$PROJECT_DIR$/apps/test/intent-perf/onos-app-intent-perf.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/test/loadtest/onos-app-loadtest.iml" afterPath="$PROJECT_DIR$/apps/test/loadtest/onos-app-loadtest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/test/messaging-perf/onos-app-messaging-perf.iml" afterPath="$PROJECT_DIR$/apps/test/messaging-perf/onos-app-messaging-perf.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/test/netcfg-monitor/onos-app-netcfg-monitor.iml" afterPath="$PROJECT_DIR$/apps/test/netcfg-monitor/onos-app-netcfg-monitor.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/test/onos-apps-test.iml" afterPath="$PROJECT_DIR$/apps/test/onos-apps-test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/virtualbng/onos-app-virtualbng.iml" afterPath="$PROJECT_DIR$/apps/virtualbng/onos-app-virtualbng.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/vpls/onos-app-vpls.iml" afterPath="$PROJECT_DIR$/apps/vpls/onos-app-vpls.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/vrouter/onos-app-vrouter.iml" afterPath="$PROJECT_DIR$/apps/vrouter/onos-app-vrouter.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/vtn/app/onos-app-vtn-onosfw.iml" afterPath="$PROJECT_DIR$/apps/vtn/app/onos-app-vtn-onosfw.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/vtn/onos-app-vtn.iml" afterPath="$PROJECT_DIR$/apps/vtn/onos-app-vtn.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/vtn/sfcmgr/onos-app-sfc-mgr.iml" afterPath="$PROJECT_DIR$/apps/vtn/sfcmgr/onos-app-sfc-mgr.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/vtn/sfcweb/onos-app-sfc-web.iml" afterPath="$PROJECT_DIR$/apps/vtn/sfcweb/onos-app-sfc-web.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/vtn/vtnmgr/onos-app-vtn-mgr.iml" afterPath="$PROJECT_DIR$/apps/vtn/vtnmgr/onos-app-vtn-mgr.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/vtn/vtnrsc/onos-app-vtn-rsc.iml" afterPath="$PROJECT_DIR$/apps/vtn/vtnrsc/onos-app-vtn-rsc.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/vtn/vtnweb/onos-app-vtn-web.iml" afterPath="$PROJECT_DIR$/apps/vtn/vtnweb/onos-app-vtn-web.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/xosclient/onos-app-xos-client.iml" afterPath="$PROJECT_DIR$/apps/xosclient/onos-app-xos-client.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/yms/api/onos-app-yms-api.iml" afterPath="$PROJECT_DIR$/apps/yms/api/onos-app-yms-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/yms/app/onos-app-yms.iml" afterPath="$PROJECT_DIR$/apps/yms/app/onos-app-yms.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/yms/onos-yms.iml" afterPath="$PROJECT_DIR$/apps/yms/onos-yms.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cli/onos-cli.iml" afterPath="$PROJECT_DIR$/cli/onos-cli.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/api/onos-api.iml" afterPath="$PROJECT_DIR$/core/api/onos-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/common/onos-core-common.iml" afterPath="$PROJECT_DIR$/core/common/onos-core-common.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/net/onos-core-net.iml" afterPath="$PROJECT_DIR$/core/net/onos-core-net.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/onos-core.iml" afterPath="$PROJECT_DIR$/core/onos-core.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/security/onos-security.iml" afterPath="$PROJECT_DIR$/core/security/onos-security.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/store/dist/onos-core-dist.iml" afterPath="$PROJECT_DIR$/core/store/dist/onos-core-dist.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/store/onos-core-store.iml" afterPath="$PROJECT_DIR$/core/store/onos-core-store.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/store/persistence/onos-core-persistence.iml" afterPath="$PROJECT_DIR$/core/store/persistence/onos-core-persistence.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/store/primitives/onos-core-primitives.iml" afterPath="$PROJECT_DIR$/core/store/primitives/onos-core-primitives.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/store/serializers/onos-core-serializers.iml" afterPath="$PROJECT_DIR$/core/store/serializers/onos-core-serializers.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drivers/arista/onos-drivers-arista.iml" afterPath="$PROJECT_DIR$/drivers/arista/onos-drivers-arista.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drivers/bmv2/onos-drivers-bmv2.iml" afterPath="$PROJECT_DIR$/drivers/bmv2/onos-drivers-bmv2.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drivers/bti/onos-drivers-bti.iml" afterPath="$PROJECT_DIR$/drivers/bti/onos-drivers-bti.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drivers/ciena/onos-drivers-ciena.iml" afterPath="$PROJECT_DIR$/drivers/ciena/onos-drivers-ciena.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drivers/cisco/onos-drivers-cisco.iml" afterPath="$PROJECT_DIR$/drivers/cisco/onos-drivers-cisco.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drivers/corsa/onos-drivers-corsa.iml" afterPath="$PROJECT_DIR$/drivers/corsa/onos-drivers-corsa.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drivers/default/onos-drivers.iml" afterPath="$PROJECT_DIR$/drivers/default/onos-drivers.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drivers/fujitsu/onos-drivers-fujitsu.iml" afterPath="$PROJECT_DIR$/drivers/fujitsu/onos-drivers-fujitsu.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drivers/juniper/onos-drivers-juniper.iml" afterPath="$PROJECT_DIR$/drivers/juniper/onos-drivers-juniper.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drivers/lumentum/onos-drivers-lumentum.iml" afterPath="$PROJECT_DIR$/drivers/lumentum/onos-drivers-lumentum.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drivers/netconf/onos-drivers-netconf.iml" afterPath="$PROJECT_DIR$/drivers/netconf/onos-drivers-netconf.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drivers/onos-drivers-general.iml" afterPath="$PROJECT_DIR$/drivers/onos-drivers-general.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drivers/optical/onos-drivers-optical.iml" afterPath="$PROJECT_DIR$/drivers/optical/onos-drivers-optical.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drivers/ovsdb/onos-drivers-ovsdb.iml" afterPath="$PROJECT_DIR$/drivers/ovsdb/onos-drivers-ovsdb.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drivers/utilities/onos-drivers-utilities.iml" afterPath="$PROJECT_DIR$/drivers/utilities/onos-drivers-utilities.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/onos-features.iml" afterPath="$PROJECT_DIR$/features/onos-features.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/incubator/api/onos-incubator-api.iml" afterPath="$PROJECT_DIR$/incubator/api/onos-incubator-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/incubator/core/onos-incubator-core.iml" afterPath="$PROJECT_DIR$/incubator/core/onos-incubator-core.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/incubator/grpc/onos-incubator-grpc.iml" afterPath="$PROJECT_DIR$/incubator/grpc/onos-incubator-grpc.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/incubator/net/onos-incubator-net.iml" afterPath="$PROJECT_DIR$/incubator/net/onos-incubator-net.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/incubator/onos-incubator.iml" afterPath="$PROJECT_DIR$/incubator/onos-incubator.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/incubator/protobuf-nb/onos-incubator-protobuf-nb.iml" afterPath="$PROJECT_DIR$/incubator/protobuf-nb/onos-incubator-protobuf-nb.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/incubator/protobuf/onos-incubator-protobuf.iml" afterPath="$PROJECT_DIR$/incubator/protobuf/onos-incubator-protobuf.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/incubator/rpc-grpc/onos-incubator-rpc-grpc.iml" afterPath="$PROJECT_DIR$/incubator/rpc-grpc/onos-incubator-rpc-grpc.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/incubator/rpc-nb/onos-incubator-rpc-nb.iml" afterPath="$PROJECT_DIR$/incubator/rpc-nb/onos-incubator-rpc-nb.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/incubator/rpc/onos-incubator-rpc.iml" afterPath="$PROJECT_DIR$/incubator/rpc/onos-incubator-rpc.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/incubator/store/onos-incubator-store.iml" afterPath="$PROJECT_DIR$/incubator/store/onos-incubator-store.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/onos-dependencies.iml" afterPath="$PROJECT_DIR$/lib/onos-dependencies.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/onos.iml" afterPath="$PROJECT_DIR$/onos.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/bgp/api/onos-bgp-api.iml" afterPath="$PROJECT_DIR$/protocols/bgp/api/onos-bgp-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/bgp/bgpio/onos-bgpio.iml" afterPath="$PROJECT_DIR$/protocols/bgp/bgpio/onos-bgpio.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/bgp/ctl/onos-bgp-ctl.iml" afterPath="$PROJECT_DIR$/protocols/bgp/ctl/onos-bgp-ctl.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/bgp/onos-bgp.iml" afterPath="$PROJECT_DIR$/protocols/bgp/onos-bgp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/bmv2/api/onos-bmv2-protocol-api.iml" afterPath="$PROJECT_DIR$/protocols/bmv2/api/onos-bmv2-protocol-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/bmv2/ctl/onos-bmv2-protocol-ctl.iml" afterPath="$PROJECT_DIR$/protocols/bmv2/ctl/onos-bmv2-protocol-ctl.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/bmv2/onos-bmv2-protocol.iml" afterPath="$PROJECT_DIR$/protocols/bmv2/onos-bmv2-protocol.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/bmv2/thrift-api/onos-bmv2-protocol-thrift-api.iml" afterPath="$PROJECT_DIR$/protocols/bmv2/thrift-api/onos-bmv2-protocol-thrift-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/isis/api/onos-isis-api.iml" afterPath="$PROJECT_DIR$/protocols/isis/api/onos-isis-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/isis/ctl/onos-isis-ctl.iml" afterPath="$PROJECT_DIR$/protocols/isis/ctl/onos-isis-ctl.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/isis/isisio/onos-isis-isisio.iml" afterPath="$PROJECT_DIR$/protocols/isis/isisio/onos-isis-isisio.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/isis/onos-isis.iml" afterPath="$PROJECT_DIR$/protocols/isis/onos-isis.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/lisp/api/onos-lisp-api.iml" afterPath="$PROJECT_DIR$/protocols/lisp/api/onos-lisp-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/lisp/ctl/onos-lisp-ctl.iml" afterPath="$PROJECT_DIR$/protocols/lisp/ctl/onos-lisp-ctl.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/lisp/msg/onos-lisp-msg.iml" afterPath="$PROJECT_DIR$/protocols/lisp/msg/onos-lisp-msg.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/lisp/onos-lisp.iml" afterPath="$PROJECT_DIR$/protocols/lisp/onos-lisp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/netconf/api/onos-netconf-api.iml" afterPath="$PROJECT_DIR$/protocols/netconf/api/onos-netconf-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/netconf/ctl/onos-netconf-ctl.iml" afterPath="$PROJECT_DIR$/protocols/netconf/ctl/onos-netconf-ctl.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/netconf/onos-netconf.iml" afterPath="$PROJECT_DIR$/protocols/netconf/onos-netconf.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/onos-protocols.iml" afterPath="$PROJECT_DIR$/protocols/onos-protocols.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/openflow/api/onos-of-api.iml" afterPath="$PROJECT_DIR$/protocols/openflow/api/onos-of-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/openflow/ctl/onos-of-ctl.iml" afterPath="$PROJECT_DIR$/protocols/openflow/ctl/onos-of-ctl.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/openflow/onos-of.iml" afterPath="$PROJECT_DIR$/protocols/openflow/onos-of.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/ospf/api/onos-ospf-api.iml" afterPath="$PROJECT_DIR$/protocols/ospf/api/onos-ospf-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/ospf/ctl/onos-ospf-ctl.iml" afterPath="$PROJECT_DIR$/protocols/ospf/ctl/onos-ospf-ctl.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/ospf/onos-ospf.iml" afterPath="$PROJECT_DIR$/protocols/ospf/onos-ospf.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/ospf/protocol/onos-ospf-protocol.iml" afterPath="$PROJECT_DIR$/protocols/ospf/protocol/onos-ospf-protocol.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/ovsdb/api/onos-ovsdb-api.iml" afterPath="$PROJECT_DIR$/protocols/ovsdb/api/onos-ovsdb-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/ovsdb/ctl/onos-ovsdb-ctl.iml" afterPath="$PROJECT_DIR$/protocols/ovsdb/ctl/onos-ovsdb-ctl.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/ovsdb/onos-ovsdb.iml" afterPath="$PROJECT_DIR$/protocols/ovsdb/onos-ovsdb.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/ovsdb/rfc/onos-ovsdb-rfc.iml" afterPath="$PROJECT_DIR$/protocols/ovsdb/rfc/onos-ovsdb-rfc.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/pcep/api/onos-pcep-controller-api.iml" afterPath="$PROJECT_DIR$/protocols/pcep/api/onos-pcep-controller-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/pcep/ctl/onos-pcep-controller-impl.iml" afterPath="$PROJECT_DIR$/protocols/pcep/ctl/onos-pcep-controller-impl.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/pcep/onos-pcep-controller.iml" afterPath="$PROJECT_DIR$/protocols/pcep/onos-pcep-controller.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/pcep/pcepio/onos-pcepio.iml" afterPath="$PROJECT_DIR$/protocols/pcep/pcepio/onos-pcepio.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/rest/api/onos-restsb-api.iml" afterPath="$PROJECT_DIR$/protocols/rest/api/onos-restsb-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/rest/ctl/onos-restsb-ctl.iml" afterPath="$PROJECT_DIR$/protocols/rest/ctl/onos-restsb-ctl.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/rest/onos-restsb.iml" afterPath="$PROJECT_DIR$/protocols/rest/onos-restsb.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/snmp/api/onos-snmp-api.iml" afterPath="$PROJECT_DIR$/protocols/snmp/api/onos-snmp-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/snmp/ctl/onos-snmp-ctl.iml" afterPath="$PROJECT_DIR$/protocols/snmp/ctl/onos-snmp-ctl.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protocols/snmp/onos-snmp-protocol.iml" afterPath="$PROJECT_DIR$/protocols/snmp/onos-snmp-protocol.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/bgp/app/onos-bgp-app.iml" afterPath="$PROJECT_DIR$/providers/bgp/app/onos-bgp-app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/bgp/cfg/onos-bgp-provider-cfg.iml" afterPath="$PROJECT_DIR$/providers/bgp/cfg/onos-bgp-provider-cfg.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/bgp/onos-bgp-providers.iml" afterPath="$PROJECT_DIR$/providers/bgp/onos-bgp-providers.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/bgp/topology/onos-bgp-provider-topology.iml" afterPath="$PROJECT_DIR$/providers/bgp/topology/onos-bgp-provider-topology.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/bgpcep/app/onos-bgpcep-app.iml" afterPath="$PROJECT_DIR$/providers/bgpcep/app/onos-bgpcep-app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/bgpcep/flow/onos-bgpcep-provider-flow.iml" afterPath="$PROJECT_DIR$/providers/bgpcep/flow/onos-bgpcep-provider-flow.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/bgpcep/onos-bgpcep-providers.iml" afterPath="$PROJECT_DIR$/providers/bgpcep/onos-bgpcep-providers.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/bmv2/app/onos-bmv2-app.iml" afterPath="$PROJECT_DIR$/providers/bmv2/app/onos-bmv2-app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/bmv2/device/onos-bmv2-provider-device.iml" afterPath="$PROJECT_DIR$/providers/bmv2/device/onos-bmv2-provider-device.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/bmv2/onos-bmv2-providers.iml" afterPath="$PROJECT_DIR$/providers/bmv2/onos-bmv2-providers.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/bmv2/packet/onos-bmv2-provider-packet.iml" afterPath="$PROJECT_DIR$/providers/bmv2/packet/onos-bmv2-provider-packet.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/host/onos-host-provider.iml" afterPath="$PROJECT_DIR$/providers/host/onos-host-provider.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/isis/app/onos-isis-app.iml" afterPath="$PROJECT_DIR$/providers/isis/app/onos-isis-app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/isis/cfg/onos-isis-provider-cfg.iml" afterPath="$PROJECT_DIR$/providers/isis/cfg/onos-isis-provider-cfg.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/isis/cli/onos-isis-provider-cli.iml" afterPath="$PROJECT_DIR$/providers/isis/cli/onos-isis-provider-cli.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/isis/onos-isis-providers.iml" afterPath="$PROJECT_DIR$/providers/isis/onos-isis-providers.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/isis/topology/onos-isis-provider-topology.iml" afterPath="$PROJECT_DIR$/providers/isis/topology/onos-isis-provider-topology.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/link/onos-linkdiscovery-provider.iml" afterPath="$PROJECT_DIR$/providers/link/onos-linkdiscovery-provider.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/lisp/app/onos-lisp-app.iml" afterPath="$PROJECT_DIR$/providers/lisp/app/onos-lisp-app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/lisp/device/onos-lisp-provider-device.iml" afterPath="$PROJECT_DIR$/providers/lisp/device/onos-lisp-provider-device.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/lisp/onos-lisp-providers.iml" afterPath="$PROJECT_DIR$/providers/lisp/onos-lisp-providers.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/lldp/onos-lldp-provider.iml" afterPath="$PROJECT_DIR$/providers/lldp/onos-lldp-provider.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/lldpcommon/onos-lldp-provider-common.iml" afterPath="$PROJECT_DIR$/providers/lldpcommon/onos-lldp-provider-common.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/netcfghost/onos-netcfg-host-provider.iml" afterPath="$PROJECT_DIR$/providers/netcfghost/onos-netcfg-host-provider.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/netcfglinks/onos-netcfg-links-provider.iml" afterPath="$PROJECT_DIR$/providers/netcfglinks/onos-netcfg-links-provider.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/netconf/alarm/onos-netconf-provider-alarm.iml" afterPath="$PROJECT_DIR$/providers/netconf/alarm/onos-netconf-provider-alarm.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/netconf/app/onos-netconf-app.iml" afterPath="$PROJECT_DIR$/providers/netconf/app/onos-netconf-app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/netconf/device/onos-netconf-provider-device.iml" afterPath="$PROJECT_DIR$/providers/netconf/device/onos-netconf-provider-device.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/netconf/onos-netconf-providers.iml" afterPath="$PROJECT_DIR$/providers/netconf/onos-netconf-providers.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/null/onos-null-provider.iml" afterPath="$PROJECT_DIR$/providers/null/onos-null-provider.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/onos-providers.iml" afterPath="$PROJECT_DIR$/providers/onos-providers.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/openflow/app/onos-openflow.iml" afterPath="$PROJECT_DIR$/providers/openflow/app/onos-openflow.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/openflow/base/onos-openflow-base.iml" afterPath="$PROJECT_DIR$/providers/openflow/base/onos-openflow-base.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/openflow/device/onos-of-provider-device.iml" afterPath="$PROJECT_DIR$/providers/openflow/device/onos-of-provider-device.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/openflow/flow/onos-of-provider-flow.iml" afterPath="$PROJECT_DIR$/providers/openflow/flow/onos-of-provider-flow.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/openflow/group/onos-of-provider-group.iml" afterPath="$PROJECT_DIR$/providers/openflow/group/onos-of-provider-group.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/openflow/message/onos-of-provider-message.iml" afterPath="$PROJECT_DIR$/providers/openflow/message/onos-of-provider-message.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/openflow/meter/onos-of-provider-meter.iml" afterPath="$PROJECT_DIR$/providers/openflow/meter/onos-of-provider-meter.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/openflow/onos-of-providers.iml" afterPath="$PROJECT_DIR$/providers/openflow/onos-of-providers.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/openflow/packet/onos-of-provider-packet.iml" afterPath="$PROJECT_DIR$/providers/openflow/packet/onos-of-provider-packet.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/ospf/app/onos-ospf-app.iml" afterPath="$PROJECT_DIR$/providers/ospf/app/onos-ospf-app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/ospf/cfg/onos-ospf-provider-cfg.iml" afterPath="$PROJECT_DIR$/providers/ospf/cfg/onos-ospf-provider-cfg.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/ospf/cli/onos-ospf-provider-cli.iml" afterPath="$PROJECT_DIR$/providers/ospf/cli/onos-ospf-provider-cli.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/ospf/onos-ospf-providers.iml" afterPath="$PROJECT_DIR$/providers/ospf/onos-ospf-providers.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/ospf/topology/onos-ospf-provider-topology.iml" afterPath="$PROJECT_DIR$/providers/ospf/topology/onos-ospf-provider-topology.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/ovsdb/app/onos-ovsdatabase.iml" afterPath="$PROJECT_DIR$/providers/ovsdb/app/onos-ovsdatabase.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/ovsdb/base/onos-ovsdb-base.iml" afterPath="$PROJECT_DIR$/providers/ovsdb/base/onos-ovsdb-base.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/ovsdb/device/onos-ovsdb-provider-device.iml" afterPath="$PROJECT_DIR$/providers/ovsdb/device/onos-ovsdb-provider-device.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/ovsdb/host/onos-ovsdb-provider-host.iml" afterPath="$PROJECT_DIR$/providers/ovsdb/host/onos-ovsdb-provider-host.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/ovsdb/onos-ovsdb-providers.iml" afterPath="$PROJECT_DIR$/providers/ovsdb/onos-ovsdb-providers.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/ovsdb/tunnel/onos-ovsdb-provider-tunnel.iml" afterPath="$PROJECT_DIR$/providers/ovsdb/tunnel/onos-ovsdb-provider-tunnel.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/pcep/app/onos-pcep.iml" afterPath="$PROJECT_DIR$/providers/pcep/app/onos-pcep.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/pcep/onos-pcep-providers.iml" afterPath="$PROJECT_DIR$/providers/pcep/onos-pcep-providers.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/pcep/topology/onos-pcep-provider-topology.iml" afterPath="$PROJECT_DIR$/providers/pcep/topology/onos-pcep-provider-topology.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/pcep/tunnel/onos-pcep-provider-tunnel.iml" afterPath="$PROJECT_DIR$/providers/pcep/tunnel/onos-pcep-provider-tunnel.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/rest/app/onos-restsb-app.iml" afterPath="$PROJECT_DIR$/providers/rest/app/onos-restsb-app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/rest/device/onos-restsb-provider-device.iml" afterPath="$PROJECT_DIR$/providers/rest/device/onos-restsb-provider-device.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/rest/onos-restsb-providers.iml" afterPath="$PROJECT_DIR$/providers/rest/onos-restsb-providers.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/snmp/app/onos-snmp-app.iml" afterPath="$PROJECT_DIR$/providers/snmp/app/onos-snmp-app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/snmp/device/onos-snmp-provider-device.iml" afterPath="$PROJECT_DIR$/providers/snmp/device/onos-snmp-provider-device.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/providers/snmp/onos-snmp-providers.iml" afterPath="$PROJECT_DIR$/providers/snmp/onos-snmp-providers.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/package/archetypes/api/onos-api-archetype.iml" afterPath="$PROJECT_DIR$/tools/package/archetypes/api/onos-api-archetype.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/package/archetypes/bundle/onos-bundle-archetype.iml" afterPath="$PROJECT_DIR$/tools/package/archetypes/bundle/onos-bundle-archetype.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/package/archetypes/cli/onos-cli-archetype.iml" afterPath="$PROJECT_DIR$/tools/package/archetypes/cli/onos-cli-archetype.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/package/archetypes/onos-archetypes.iml" afterPath="$PROJECT_DIR$/tools/package/archetypes/onos-archetypes.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/package/archetypes/rest/onos-rest-archetype.iml" afterPath="$PROJECT_DIR$/tools/package/archetypes/rest/onos-rest-archetype.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/package/archetypes/ui/onos-ui-archetype.iml" afterPath="$PROJECT_DIR$/tools/package/archetypes/ui/onos-ui-archetype.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/package/archetypes/uitab/onos-uitab-archetype.iml" afterPath="$PROJECT_DIR$/tools/package/archetypes/uitab/onos-uitab-archetype.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/package/archetypes/uitopo/onos-uitopo-archetype.iml" afterPath="$PROJECT_DIR$/tools/package/archetypes/uitopo/onos-uitopo-archetype.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/package/branding/onos-branding.iml" afterPath="$PROJECT_DIR$/tools/package/branding/onos-branding.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/junit/onlab-junit.iml" afterPath="$PROJECT_DIR$/utils/junit/onlab-junit.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/misc/onlab-misc.iml" afterPath="$PROJECT_DIR$/utils/misc/onlab-misc.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/onlab-utils.iml" afterPath="$PROJECT_DIR$/utils/onlab-utils.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/osgi/onlab-osgi.iml" afterPath="$PROJECT_DIR$/utils/osgi/onlab-osgi.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/osgiwrap/osgiwrap.iml" afterPath="$PROJECT_DIR$/utils/osgiwrap/osgiwrap.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/rest/onlab-rest.iml" afterPath="$PROJECT_DIR$/utils/rest/onlab-rest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/api/onos-rest.iml" afterPath="$PROJECT_DIR$/web/api/onos-rest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/gui/onos-gui.iml" afterPath="$PROJECT_DIR$/web/gui/onos-gui.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/onos-web.iml" afterPath="$PROJECT_DIR$/web/onos-web.iml" />
     </list>
     <ignored path="onoscnic.iws" />
     <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/apps/faultmanagement/app/target/" />
+    <ignored path="$PROJECT_DIR$/apps/dhcp/app/target/surefire-reports/" />
+    <ignored path="$PROJECT_DIR$/apps/dhcp/app/target/maven-archiver/" />
+    <ignored path="$PROJECT_DIR$/apps/dhcp/app/target/site/" />
+    <ignored path="$PROJECT_DIR$/apps/dhcp/app/target/oar/" />
+    <ignored path="$PROJECT_DIR$/protocols/isis/ctl/target/" />
+    <ignored path="$PROJECT_DIR$/incubator/target/" />
+    <ignored path="$PROJECT_DIR$/apps/pce/app/target/" />
+    <ignored path="$PROJECT_DIR$/drivers/target/" />
+    <ignored path="$PROJECT_DIR$/apps/pce/pceweb/target/" />
+    <ignored path="$PROJECT_DIR$/apps/faultmanagement/fmcli/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/ospf/protocol/target/" />
+    <ignored path="$PROJECT_DIR$/apps/faultmanagement/target/" />
+    <ignored path="$PROJECT_DIR$/providers/lldpcommon/target/" />
+    <ignored path="$PROJECT_DIR$/drivers/bmv2/target/" />
+    <ignored path="$PROJECT_DIR$/providers/isis/cli/target/" />
+    <ignored path="$PROJECT_DIR$/providers/openflow/meter/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/ovsdb/api/target/" />
+    <ignored path="$PROJECT_DIR$/apps/mfwd/target/" />
+    <ignored path="$PROJECT_DIR$/apps/flowanalyzer/target/" />
+    <ignored path="$PROJECT_DIR$/providers/isis/target/" />
+    <ignored path="$PROJECT_DIR$/providers/lisp/device/target/" />
+    <ignored path="$PROJECT_DIR$/providers/bgp/app/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/netconf/ctl/target/" />
+    <ignored path="$PROJECT_DIR$/tools/package/archetypes/ui/target/" />
+    <ignored path="$PROJECT_DIR$/apps/kafka-integration/core/target/" />
+    <ignored path="$PROJECT_DIR$/providers/bgpcep/flow/target/" />
+    <ignored path="$PROJECT_DIR$/core/api/target/" />
+    <ignored path="$PROJECT_DIR$/apps/openstackinterface/target/" />
+    <ignored path="$PROJECT_DIR$/apps/vpls/target/" />
+    <ignored path="$PROJECT_DIR$/features/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/rest/ctl/target/" />
+    <ignored path="$PROJECT_DIR$/apps/yms/api/target/" />
+    <ignored path="$PROJECT_DIR$/providers/lisp/app/target/" />
+    <ignored path="$PROJECT_DIR$/apps/vtn/sfcweb/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/snmp/api/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/bmv2/ctl/target/" />
+    <ignored path="$PROJECT_DIR$/apps/openstacknetworking/api/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/bgp/target/" />
+    <ignored path="$PROJECT_DIR$/incubator/store/target/" />
+    <ignored path="$PROJECT_DIR$/providers/openflow/group/target/" />
+    <ignored path="$PROJECT_DIR$/apps/iptopology-api/target/" />
+    <ignored path="$PROJECT_DIR$/core/security/target/" />
+    <ignored path="$PROJECT_DIR$/apps/metrics/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/ospf/target/" />
+    <ignored path="$PROJECT_DIR$/apps/test/distributed-primitives/target/" />
+    <ignored path="$PROJECT_DIR$/apps/vtn/target/" />
+    <ignored path="$PROJECT_DIR$/providers/host/target/" />
+    <ignored path="$PROJECT_DIR$/apps/bmv2-demo/wcmp/target/" />
+    <ignored path="$PROJECT_DIR$/apps/pce/pcerest/target/" />
+    <ignored path="$PROJECT_DIR$/apps/patchpanel/target/" />
+    <ignored path="$PROJECT_DIR$/providers/bmv2/packet/target/" />
+    <ignored path="$PROJECT_DIR$/apps/test/loadtest/target/" />
+    <ignored path="$PROJECT_DIR$/drivers/ovsdb/target/" />
+    <ignored path="$PROJECT_DIR$/apps/test/netcfg-monitor/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/lisp/target/" />
+    <ignored path="$PROJECT_DIR$/apps/dhcprelay/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/lisp/msg/target/" />
+    <ignored path="$PROJECT_DIR$/apps/test/demo/target/oar/" />
+    <ignored path="$PROJECT_DIR$/drivers/arista/target/" />
+    <ignored path="$PROJECT_DIR$/providers/bgp/topology/target/" />
+    <ignored path="$PROJECT_DIR$/tools/package/archetypes/uitab/target/" />
+    <ignored path="$PROJECT_DIR$/apps/bgprouter/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/isis/isisio/target/" />
+    <ignored path="$PROJECT_DIR$/providers/isis/cfg/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/lisp/ctl/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/pcep/pcepio/target/" />
+    <ignored path="$PROJECT_DIR$/utils/rest/target/" />
+    <ignored path="$PROJECT_DIR$/lib/target/" />
+    <ignored path="$PROJECT_DIR$/providers/rest/app/target/" />
+    <ignored path="$PROJECT_DIR$/providers/ovsdb/tunnel/target/" />
+    <ignored path="$PROJECT_DIR$/incubator/rpc/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/bgp/api/target/" />
+    <ignored path="$PROJECT_DIR$/apps/cpman/api/target/" />
+    <ignored path="$PROJECT_DIR$/apps/dhcp/api/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/providers/bmv2/target/" />
+    <ignored path="$PROJECT_DIR$/apps/segmentrouting/target/surefire-reports/" />
+    <ignored path="$PROJECT_DIR$/apps/segmentrouting/target/maven-archiver/" />
+    <ignored path="$PROJECT_DIR$/apps/segmentrouting/target/site/" />
+    <ignored path="$PROJECT_DIR$/apps/segmentrouting/target/oar/" />
+    <ignored path="$PROJECT_DIR$/apps/scalablegateway/target/" />
+    <ignored path="$PROJECT_DIR$/apps/yms/target/" />
+    <ignored path="$PROJECT_DIR$/apps/cpman/target/" />
+    <ignored path="$PROJECT_DIR$/apps/vtn/vtnmgr/target/" />
+    <ignored path="$PROJECT_DIR$/apps/newoptical/target/" />
+    <ignored path="$PROJECT_DIR$/drivers/cisco/target/" />
+    <ignored path="$PROJECT_DIR$/drivers/netconf/target/" />
+    <ignored path="$PROJECT_DIR$/tools/package/archetypes/target/" />
+    <ignored path="$PROJECT_DIR$/core/store/serializers/target/" />
+    <ignored path="$PROJECT_DIR$/tools/package/archetypes/api/target/" />
+    <ignored path="$PROJECT_DIR$/apps/yms/app/target/" />
+    <ignored path="$PROJECT_DIR$/providers/netconf/app/target/" />
+    <ignored path="$PROJECT_DIR$/utils/osgiwrap/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/ovsdb/rfc/target/" />
+    <ignored path="$PROJECT_DIR$/utils/osgi/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/target/" />
+    <ignored path="$PROJECT_DIR$/apps/bmv2-demo/ecmp/target/" />
+    <ignored path="$PROJECT_DIR$/providers/netcfglinks/target/" />
+    <ignored path="$PROJECT_DIR$/providers/pcep/tunnel/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/bmv2/api/target/" />
+    <ignored path="$PROJECT_DIR$/providers/bgpcep/app/target/" />
+    <ignored path="$PROJECT_DIR$/apps/reactive-routing/target/" />
+    <ignored path="$PROJECT_DIR$/apps/sdnip/target/" />
+    <ignored path="$PROJECT_DIR$/apps/pce/target/" />
+    <ignored path="$PROJECT_DIR$/providers/bgp/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/bgp/ctl/target/" />
+    <ignored path="$PROJECT_DIR$/apps/vtn/vtnweb/target/" />
+    <ignored path="$PROJECT_DIR$/apps/faultmanagement/fmgui/target/" />
+    <ignored path="$PROJECT_DIR$/incubator/rpc-grpc/target/protoc-plugins/" />
+    <ignored path="$PROJECT_DIR$/incubator/rpc-grpc/target/surefire-reports/" />
+    <ignored path="$PROJECT_DIR$/incubator/rpc-grpc/target/protoc-dependencies/" />
+    <ignored path="$PROJECT_DIR$/incubator/rpc-grpc/target/maven-archiver/" />
+    <ignored path="$PROJECT_DIR$/incubator/rpc-grpc/target/site/" />
+    <ignored path="$PROJECT_DIR$/incubator/rpc-grpc/target/oar/" />
+    <ignored path="$PROJECT_DIR$/drivers/utilities/target/" />
+    <ignored path="$PROJECT_DIR$/apps/bmv2-demo/target/" />
+    <ignored path="$PROJECT_DIR$/apps/optical/target/" />
+    <ignored path="$PROJECT_DIR$/providers/pcep/app/target/" />
+    <ignored path="$PROJECT_DIR$/providers/bgpcep/target/" />
+    <ignored path="$PROJECT_DIR$/apps/vtn/sfcmgr/target/" />
+    <ignored path="$PROJECT_DIR$/utils/target/" />
+    <ignored path="$PROJECT_DIR$/apps/openstacknode/target/" />
+    <ignored path="$PROJECT_DIR$/core/store/dist/target/" />
+    <ignored path="$PROJECT_DIR$/incubator/core/target/" />
+    <ignored path="$PROJECT_DIR$/providers/ospf/topology/target/" />
+    <ignored path="$PROJECT_DIR$/tools/package/archetypes/cli/target/" />
+    <ignored path="$PROJECT_DIR$/providers/ospf/cli/target/" />
+    <ignored path="$PROJECT_DIR$/apps/mobility/target/" />
+    <ignored path="$PROJECT_DIR$/incubator/protobuf-nb/target/protoc-plugins/" />
+    <ignored path="$PROJECT_DIR$/incubator/protobuf-nb/target/protoc-dependencies/" />
+    <ignored path="$PROJECT_DIR$/apps/proxyarp/target/" />
+    <ignored path="$PROJECT_DIR$/apps/dhcp/target/" />
+    <ignored path="$PROJECT_DIR$/web/gui/target/" />
+    <ignored path="$PROJECT_DIR$/apps/vtn/vtnrsc/target/" />
+    <ignored path="$PROJECT_DIR$/providers/openflow/base/target/" />
+    <ignored path="$PROJECT_DIR$/providers/openflow/packet/target/" />
+    <ignored path="$PROJECT_DIR$/providers/netconf/alarm/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/snmp/target/" />
+    <ignored path="$PROJECT_DIR$/drivers/juniper/target/" />
+    <ignored path="$PROJECT_DIR$/providers/ospf/app/target/" />
+    <ignored path="$PROJECT_DIR$/providers/ovsdb/device/target/" />
+    <ignored path="$PROJECT_DIR$/providers/ovsdb/target/" />
+    <ignored path="$PROJECT_DIR$/apps/test/target/" />
+    <ignored path="$PROJECT_DIR$/apps/vrouter/target/" />
+    <ignored path="$PROJECT_DIR$/providers/target/" />
+    <ignored path="$PROJECT_DIR$/providers/null/target/" />
+    <ignored path="$PROJECT_DIR$/tools/package/archetypes/rest/target/" />
+    <ignored path="$PROJECT_DIR$/tools/package/archetypes/bundle/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/isis/target/" />
+    <ignored path="$PROJECT_DIR$/apps/test/messaging-perf/target/" />
+    <ignored path="$PROJECT_DIR$/drivers/bti/target/" />
+    <ignored path="$PROJECT_DIR$/apps/influxdbmetrics/target/" />
+    <ignored path="$PROJECT_DIR$/incubator/protobuf/target/protoc-plugins/" />
+    <ignored path="$PROJECT_DIR$/incubator/protobuf/target/protoc-dependencies/" />
+    <ignored path="$PROJECT_DIR$/incubator/protobuf/target/oar/" />
+    <ignored path="$PROJECT_DIR$/providers/link/target/" />
+    <ignored path="$PROJECT_DIR$/providers/ovsdb/host/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/bmv2/thrift-api/target/thrift-sources/" />
+    <ignored path="$PROJECT_DIR$/protocols/bmv2/thrift-api/target/thrift-compiler/" />
+    <ignored path="$PROJECT_DIR$/protocols/bmv2/thrift-api/target/dependency-maven-plugin-markers/" />
+    <ignored path="$PROJECT_DIR$/providers/lldp/target/" />
+    <ignored path="$PROJECT_DIR$/providers/rest/device/target/" />
+    <ignored path="$PROJECT_DIR$/apps/cpman/app/target/surefire-reports/" />
+    <ignored path="$PROJECT_DIR$/apps/cpman/app/target/maven-archiver/" />
+    <ignored path="$PROJECT_DIR$/apps/cpman/app/target/site/" />
+    <ignored path="$PROJECT_DIR$/apps/cpman/app/target/oar/" />
+    <ignored path="$PROJECT_DIR$/providers/lisp/target/" />
+    <ignored path="$PROJECT_DIR$/drivers/lumentum/target/" />
+    <ignored path="$PROJECT_DIR$/apps/openstackinterface/api/target/" />
+    <ignored path="$PROJECT_DIR$/apps/events/target/" />
+    <ignored path="$PROJECT_DIR$/apps/faultmanagement/fmweb/target/surefire-reports/" />
+    <ignored path="$PROJECT_DIR$/apps/faultmanagement/fmweb/target/maven-archiver/" />
+    <ignored path="$PROJECT_DIR$/apps/faultmanagement/fmweb/target/site/" />
+    <ignored path="$PROJECT_DIR$/apps/target/" />
+    <ignored path="$PROJECT_DIR$/apps/test/intent-perf/target/" />
+    <ignored path="$PROJECT_DIR$/providers/openflow/device/target/" />
+    <ignored path="$PROJECT_DIR$/drivers/corsa/target/" />
+    <ignored path="$PROJECT_DIR$/apps/openstacknetworking/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/snmp/ctl/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/pcep/api/target/" />
+    <ignored path="$PROJECT_DIR$/providers/bmv2/app/target/" />
+    <ignored path="$PROJECT_DIR$/apps/mlb/target/" />
+    <ignored path="$PROJECT_DIR$/core/target/" />
+    <ignored path="$PROJECT_DIR$/providers/snmp/device/target/" />
+    <ignored path="$PROJECT_DIR$/providers/bmv2/device/target/" />
+    <ignored path="$PROJECT_DIR$/tools/package/archetypes/uitopo/target/" />
+    <ignored path="$PROJECT_DIR$/apps/openstacknetworking/routing/target/" />
+    <ignored path="$PROJECT_DIR$/providers/snmp/target/" />
+    <ignored path="$PROJECT_DIR$/apps/drivermatrix/target/" />
+    <ignored path="$PROJECT_DIR$/apps/kafka-integration/api/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/ospf/api/target/" />
+    <ignored path="$PROJECT_DIR$/apps/pathpainter/target/" />
+    <ignored path="$PROJECT_DIR$/apps/routing-api/target/" />
+    <ignored path="$PROJECT_DIR$/apps/routing/target/" />
+    <ignored path="$PROJECT_DIR$/providers/openflow/app/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/rest/api/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/isis/api/target/" />
+    <ignored path="$PROJECT_DIR$/utils/junit/target/" />
+    <ignored path="$PROJECT_DIR$/drivers/optical/target/" />
+    <ignored path="$PROJECT_DIR$/apps/kafka-integration/app/target/" />
+    <ignored path="$PROJECT_DIR$/providers/ovsdb/base/target/" />
+    <ignored path="$PROJECT_DIR$/apps/openstacknetworking/switching/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/ovsdb/ctl/target/" />
+    <ignored path="$PROJECT_DIR$/web/api/target/surefire-reports/" />
+    <ignored path="$PROJECT_DIR$/web/api/target/maven-archiver/" />
+    <ignored path="$PROJECT_DIR$/web/api/target/site/" />
+    <ignored path="$PROJECT_DIR$/providers/pcep/target/" />
+    <ignored path="$PROJECT_DIR$/providers/netconf/device/target/" />
+    <ignored path="$PROJECT_DIR$/apps/pim/target/" />
+    <ignored path="$PROJECT_DIR$/providers/ospf/cfg/target/" />
+    <ignored path="$PROJECT_DIR$/apps/optical-model/target/" />
+    <ignored path="$PROJECT_DIR$/drivers/default/target/" />
+    <ignored path="$PROJECT_DIR$/providers/isis/topology/target/" />
+    <ignored path="$PROJECT_DIR$/incubator/rpc-nb/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/bmv2/target/" />
+    <ignored path="$PROJECT_DIR$/providers/bgp/cfg/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/openflow/ctl/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/rest/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/ovsdb/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/bgp/bgpio/target/" />
+    <ignored path="$PROJECT_DIR$/providers/isis/app/target/" />
+    <ignored path="$PROJECT_DIR$/providers/netcfghost/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/ospf/ctl/target/" />
+    <ignored path="$PROJECT_DIR$/providers/openflow/message/target/" />
+    <ignored path="$PROJECT_DIR$/apps/bmv2-demo/common/target/" />
+    <ignored path="$PROJECT_DIR$/providers/netconf/target/" />
+    <ignored path="$PROJECT_DIR$/apps/pcep-api/target/" />
+    <ignored path="$PROJECT_DIR$/apps/kafka-integration/target/" />
+    <ignored path="$PROJECT_DIR$/apps/openstackinterface/app/target/" />
+    <ignored path="$PROJECT_DIR$/core/store/primitives/target/" />
+    <ignored path="$PROJECT_DIR$/apps/graphitemetrics/target/" />
+    <ignored path="$PROJECT_DIR$/cli/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/netconf/api/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/openflow/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/pcep/target/" />
+    <ignored path="$PROJECT_DIR$/web/target/" />
+    <ignored path="$PROJECT_DIR$/providers/ovsdb/app/target/" />
+    <ignored path="$PROJECT_DIR$/apps/faultmanagement/fmmgr/target/" />
+    <ignored path="$PROJECT_DIR$/apps/test/election/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/openflow/api/target/" />
+    <ignored path="$PROJECT_DIR$/apps/cip/target/" />
+    <ignored path="$PROJECT_DIR$/core/store/target/" />
+    <ignored path="$PROJECT_DIR$/core/common/target/" />
+    <ignored path="$PROJECT_DIR$/providers/ospf/target/" />
+    <ignored path="$PROJECT_DIR$/incubator/net/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/netconf/target/" />
+    <ignored path="$PROJECT_DIR$/providers/openflow/target/" />
+    <ignored path="$PROJECT_DIR$/apps/acl/target/surefire-reports/" />
+    <ignored path="$PROJECT_DIR$/apps/acl/target/maven-archiver/" />
+    <ignored path="$PROJECT_DIR$/apps/acl/target/site/" />
+    <ignored path="$PROJECT_DIR$/apps/acl/target/oar/" />
+    <ignored path="$PROJECT_DIR$/drivers/ciena/target/" />
+    <ignored path="$PROJECT_DIR$/apps/fwd/target/" />
+    <ignored path="$PROJECT_DIR$/drivers/fujitsu/target/" />
+    <ignored path="$PROJECT_DIR$/incubator/grpc/target/" />
+    <ignored path="$PROJECT_DIR$/core/store/persistence/target/" />
+    <ignored path="$PROJECT_DIR$/providers/rest/target/" />
+    <ignored path="$PROJECT_DIR$/apps/rabbitmq/target/" />
+    <ignored path="$PROJECT_DIR$/utils/misc/target/" />
+    <ignored path="$PROJECT_DIR$/apps/test/flow-perf/target/" />
+    <ignored path="$PROJECT_DIR$/apps/xosclient/target/" />
+    <ignored path="$PROJECT_DIR$/providers/openflow/flow/target/" />
+    <ignored path="$PROJECT_DIR$/apps/virtualbng/target/oar/" />
+    <ignored path="$PROJECT_DIR$/protocols/pcep/ctl/target/" />
+    <ignored path="$PROJECT_DIR$/incubator/api/target/" />
+    <ignored path="$PROJECT_DIR$/apps/gangliametrics/target/" />
+    <ignored path="$PROJECT_DIR$/tools/package/branding/target/" />
+    <ignored path="$PROJECT_DIR$/core/net/target/" />
+    <ignored path="$PROJECT_DIR$/protocols/lisp/api/target/" />
+    <ignored path="$PROJECT_DIR$/apps/vtn/app/target/" />
+    <ignored path="$PROJECT_DIR$/providers/pcep/topology/target/" />
+    <ignored path="$PROJECT_DIR$/providers/snmp/app/target/" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,11 +724,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JuniperCommitImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/JuniperCommitImpl.java">
+      <file leaf-file-name="AbstractChoicesCompleter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/cli/AbstractChoicesCompleter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-43">
-              <caret line="43" column="54" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
+            <state relative-caret-position="240">
+              <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MetricNameCompleter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/cli/MetricNameCompleter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NodesListCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/cli/NodesListCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="574">
+              <caret line="70" column="43" selection-start-line="70" selection-start-column="43" selection-end-line="70" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XmlStructureParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/cli/XmlStructureParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="754">
+              <caret line="106" column="25" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,75 +766,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractHandlerBehaviour.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/api/src/main/java/org/onosproject/net/driver/AbstractHandlerBehaviour.java">
+      <file leaf-file-name="OvsdbBridgeConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drivers/ovsdb/src/main/java/org/onosproject/drivers/ovsdb/OvsdbBridgeConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding>
-                <element signature="e#999#1000#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommitRouter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/api/src/main/java/org/onosproject/net/behaviour/CommitRouter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NetconfSessionImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protocols/netconf/ctl/src/main/java/org/onosproject/netconf/ctl/NetconfSessionImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="287" column="0" selection-start-line="287" selection-start-column="0" selection-end-line="287" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommitRouterCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/cli/net/CommitRouterCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractShellCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/cli/AbstractShellCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-              <folding>
-                <element signature="e#2534#2535#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpeedLimitAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/SpeedLimitAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EditXmlCreateJuniper.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/tools/EditXmlCreateJuniper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="65" column="54" selection-start-line="65" selection-start-column="54" selection-end-line="65" selection-end-column="54" />
+            <state relative-caret-position="645">
+              <caret line="63" column="82" selection-start-line="63" selection-start-column="82" selection-end-line="63" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,24 +778,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XmlParserJuniper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/tools/XmlParserJuniper.java">
+      <file leaf-file-name="OvsdbControllerImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protocols/ovsdb/ctl/src/main/java/org/onosproject/ovsdb/controller/impl/OvsdbControllerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-58">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#1502#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-945">
+              <caret line="160" column="20" selection-start-line="160" selection-start-column="20" selection-end-line="160" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetXmlCreateJuniper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/tools/GetXmlCreateJuniper.java">
+      <file leaf-file-name="OpenFlowControllerImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/protocols/openflow/ctl/src/main/java/org/onosproject/openflow/controller/impl/OpenFlowControllerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="46" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="46" />
+            <state relative-caret-position="405">
+              <caret line="518" column="90" selection-start-line="518" selection-start-column="90" selection-end-line="518" selection-end-column="90" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OvsdbControllerConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drivers/ovsdb/src/main/java/org/onosproject/drivers/ovsdb/OvsdbControllerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="46" column="97" selection-start-line="46" selection-start-column="97" selection-end-line="46" selection-end-column="97" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ovsdb-drivers.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drivers/ovsdb/src/main/resources/ovsdb-drivers.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OvsdbMirroringConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drivers/ovsdb/src/main/java/org/onosproject/drivers/ovsdb/OvsdbMirroringConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -155,17 +841,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/XmlParserJuniper.java" />
-        <option value="$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/ConfigDetailGetterJuniperImpl.java" />
-        <option value="$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/ConfigDetailSetterJuniperImpl.java" />
-        <option value="$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/SpeedLimitAction.java" />
-        <option value="$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/tools/XmlParserJuniper.java" />
-        <option value="$PROJECT_DIR$/core/api/src/main/java/org/onosproject/net/behaviour/CommitRouter.java" />
-        <option value="$PROJECT_DIR$/cli/src/main/java/org/onosproject/cli/net/CommitRouterCommand.java" />
-        <option value="$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/JuniperCommitImpl.java" />
-        <option value="$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/tools/EditXmlCreateJuniper.java" />
+        <option value="$MAVEN_REPOSITORY$/org/apache/felix/org.apache.felix.scr.annotations/1.9.12/org.apache.felix.scr.annotations-1.9.12.jar!/org/apache/felix/scr/annotations/ReferenceCardinality.class" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -175,10 +859,29 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="104" />
-    <option name="y" value="63" />
-    <option name="width" value="1697" />
-    <option name="height" value="944" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PackageAccessibility</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -233,7 +936,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="drivers" />
+              <option name="myItemId" value="protocols" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -247,11 +950,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="drivers" />
+              <option name="myItemId" value="protocols" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="juniper" />
+              <option name="myItemId" value="ovsdb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -265,11 +968,99 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="drivers" />
+              <option name="myItemId" value="protocols" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="juniper" />
+              <option name="myItemId" value="ovsdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ctl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onoscnic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onoscnic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protocols" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovsdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onoscnic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onoscnic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protocols" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onoscnic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onoscnic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protocols" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ctl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onoscnic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onoscnic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protocols" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ctl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -287,165 +1078,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="drivers" />
+              <option name="myItemId" value="protocols" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="juniper" />
+              <option name="myItemId" value="openflow" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onoscnic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onoscnic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drivers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="juniper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onosproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drivers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="juniper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onoscnic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onoscnic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drivers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="juniper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onosproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drivers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="juniper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onoscnic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onoscnic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cli" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onoscnic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onoscnic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cli" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onoscnic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onoscnic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cli" />
+              <option name="myItemId" value="ctl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -461,15 +1102,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onosproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cli" />
+              <option name="myItemId" value="impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -483,51 +1116,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cli" />
+              <option name="myItemId" value="protocols" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="openflow" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onosproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cli" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="net" />
+              <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/tools" />
-    </key>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Remote.onoscnic">
+  <component name="RunManager" selected="Remote.onos">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -604,6 +1227,136 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -618,6 +1371,15 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -683,6 +1445,9 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -692,7 +1457,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="onoscnic" />
+      <module name="onos-app-fm-onosfw" />
       <envs />
       <method />
     </configuration>
@@ -708,34 +1473,18 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list />
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -794,7 +1543,29 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="onoscnic" type="Remote" factoryName="Remote">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="onos" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
@@ -807,49 +1578,63 @@
       <method />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Remote.onoscnic" />
+      <item index="0" class="java.lang.String" itemvalue="Remote.onos" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f87235e9-7e75-483e-a398-67c6c01192cf" name="Default" comment="" />
-      <created>1479275890392</created>
+      <changelist id="522c18b7-4aa4-48cf-8dbd-67c45a6536d0" name="Default" comment="" />
+      <created>1479868959995</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1479275890392</updated>
+      <updated>1479868959995</updated>
+      <workItem from="1479868961255" duration="720000" />
+      <workItem from="1479869940576" duration="334000" />
+      <workItem from="1479870353711" duration="399000" />
+      <workItem from="1479870825384" duration="1198000" />
+      <workItem from="1479977736544" duration="15871000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="18522000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="104" y="63" width="1697" height="944" extended-state="0" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36770773" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31177446" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3983353" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39979124" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -865,28 +1650,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/cli/cli/src/main/java/org/onosproject/cli/net/SetSpeedLimitCommand.java</url>
-          <line>58</line>
-          <properties class="org.onosproject.cli.net.SetSpeedLimitCommand" method="execute" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/cli/net/SetSpeedLimitCommand.java</url>
-          <line>58</line>
-          <properties class="org.onosproject.cli.net.SetSpeedLimitCommand" method="execute" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/cli/net/CommitRouterCommand.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="3" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -894,91 +1658,50 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/cli/net/SetSpeedLimitCommand.java">
+    <entry file="file://$PROJECT_DIR$/web/api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        <state relative-caret-position="1530">
+          <caret line="102" column="10" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/JuniperCommitImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/SpeedLimitAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/ConfigDetailGetterJuniperImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/ConfigDetailSetterJuniperImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/tools/EditXmlCreateJuniper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/tools/XmlParserJuniper.java">
+    <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/cli/AbstractChoicesCompleter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#1502#0" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/tools/GetXmlCreateJuniper.java">
+    <entry file="file://$PROJECT_DIR$/web/api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="102" column="10" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drivers/arista/src/main/java/org/onosproject/drivers/arista/AristaDriversLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/dev/onos.cshrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="46" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="46" />
-          <folding />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cli/cli/src/main/java/org/onosproject/cli/net/TableStatisticsCommand.java" />
-    <entry file="file://$PROJECT_DIR$/cli/cli/src/main/java/org/onosproject/cli/net/SetSpeedLimitCommand.java" />
-    <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/cli/net/SetSpeedLimitCommand.java">
+    <entry file="file://$PROJECT_DIR$/web/api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/ConfigDetailSetterJuniperImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
+        <state relative-caret-position="1530">
+          <caret line="102" column="10" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -986,101 +1709,479 @@
     <entry file="file://$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/ConfigDetailGetterJuniperImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/SpeedLimitAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/tools/GetXmlCreateJuniper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="46" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/api/src/main/java/org/onosproject/net/behaviour/CommitRouter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/cli/AbstractShellCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding>
-            <element signature="e#2534#2535#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protocols/netconf/ctl/src/main/java/org/onosproject/netconf/ctl/NetconfSessionImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="287" column="0" selection-start-line="287" selection-start-column="0" selection-end-line="287" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/tools/XmlParserJuniper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-58">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#1502#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/cli/net/CommitRouterCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/api/src/main/java/org/onosproject/net/driver/AbstractHandlerBehaviour.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
-            <element signature="e#999#1000#0" expanded="true" />
+            <element signature="e#0#1180#0" expanded="false" />
+            <element signature="e#969#970#0" expanded="false" />
+            <element signature="e#999#1000#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/cli/AbstractShellCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/onos-test-yang/src/main/java/org/onosproject/AppComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#1249#0" expanded="false" />
+            <element signature="e#1123#1124#0" expanded="false" />
+            <element signature="e#1158#1159#0" expanded="false" />
+            <element signature="e#1209#1210#0" expanded="false" />
+            <element signature="e#1244#1245#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/cli/AbstractCompleter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="25" column="62" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/cli/BalanceMastersCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/cli/MetricsListCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/onos-test-yang/src/main/yang/acme-system.yang">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/providers/netconf/onos-netconf-providers.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/felix/org.apache.felix.scr.annotations/1.9.12/org.apache.felix.scr.annotations-1.9.12.jar!/org/apache/felix/scr/annotations/ReferenceCardinality.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/providers/netconf/device/src/main/java/org/onosproject/provider/netconf/device/impl/NetconfDeviceProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6180">
+          <caret line="484" column="75" selection-start-line="484" selection-start-column="75" selection-end-line="484" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/providers/bgp/cfg/src/main/java/org/onosproject/provider/bgp/cfg/impl/BgpAppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="37" column="57" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drivers/juniper/features.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drivers/juniper/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/build/envDefaults">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/dev/bin/onos-setup-ubuntu-devenv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/dev/bin/onos-setup-karaf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="763">
+          <caret line="167" column="42" selection-start-line="167" selection-start-column="42" selection-end-line="167" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/dev/bin/onos-local-log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/dev/bin/onos-convert-yang">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/dev/bin/onos-create-app">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/dev/bin/onos-karaf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/JuniperCommitImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43">
-          <caret line="43" column="54" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/tools/EditXmlCreateJuniper.java">
+    <entry file="file://$PROJECT_DIR$/features/features.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="65" column="54" selection-start-line="65" selection-start-column="54" selection-end-line="65" selection-end-column="54" />
+        <state relative-caret-position="1039">
+          <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drivers/juniper/src/main/java/org/onosproject/drivers/juniper/ConfigDetailSetterJuniperImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drivers/utilities/src/main/java/org/onosproject/drivers/utilities/XmlConfigParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="45" column="76" selection-start-line="45" selection-start-column="76" selection-end-line="45" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocols/netconf/api/src/main/java/org/onosproject/netconf/NetconfDeviceInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-521">
+          <caret line="74" column="58" selection-start-line="74" selection-start-column="58" selection-end-line="74" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocols/netconf/api/src/main/java/org/onosproject/netconf/NetconfSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocols/netconf/ctl/src/main/java/org/onosproject/netconf/ctl/NetconfControllerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="88" column="52" selection-start-line="88" selection-start-column="52" selection-end-line="88" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/cli/MastersListCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="709">
+          <caret line="86" column="39" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/cli/UpDownCompleter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#1014#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#961#962#0" expanded="false" />
+            <element signature="e#1010#1011#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/cli/SummaryCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/cli/AbstractChoicesCompleter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/cli/MetricNameCompleter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/cli/NodesListCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="70" column="43" selection-start-line="70" selection-start-column="43" selection-end-line="70" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/cli/CliComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/cli/XmlStructureParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="106" column="25" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/drivers/ovsdb/src/main/java/org/onosproject/drivers/ovsdb/OvsdbMirroringConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drivers/ovsdb/src/main/java/org/onosproject/drivers/ovsdb/OvsdbControllerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="46" column="97" selection-start-line="46" selection-start-column="97" selection-end-line="46" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drivers/ovsdb/src/main/resources/ovsdb-drivers.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drivers/ovsdb/src/main/java/org/onosproject/drivers/ovsdb/OvsdbBridgeConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="63" column="82" selection-start-line="63" selection-start-column="82" selection-end-line="63" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocols/ovsdb/ctl/src/main/java/org/onosproject/ovsdb/controller/impl/OvsdbControllerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-945">
+          <caret line="160" column="20" selection-start-line="160" selection-start-column="20" selection-end-line="160" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocols/openflow/ctl/src/main/java/org/onosproject/openflow/controller/impl/OpenFlowControllerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="518" column="90" selection-start-line="518" selection-start-column="90" selection-end-line="518" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>OSGi</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>onos</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: biz.aQute.bnd:biz.aQute.bndlib:3.1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

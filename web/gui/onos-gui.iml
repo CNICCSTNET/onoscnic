@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="onos-gui-1.8.0-SNAPSHOT.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="org.onosproject.onos-gui" bundleVersion="1.8.0.SNAPSHOT" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties>
+          <property key="Bundle-Description" value="ONOS Web GUI" />
+          <property key="-wab" value="src/main/webapp/" />
+          <property key="Include-Resource" value="WEB-INF/classes/index.html=$MODULE_DIR$/src/main/webapp/index.html,WEB-INF/classes/login.html=$MODULE_DIR$/src/main/webapp/login.html,WEB-INF/classes/error.html=$MODULE_DIR$/src/main/webapp/error.html,WEB-INF/classes/not-ready.html=$MODULE_DIR$/src/main/webapp/not-ready.html,WEB-INF/classes/onos.js=$MODULE_DIR$/src/main/webapp/onos.js,WEB-INF/classes/nav.html=$MODULE_DIR$/src/main/webapp/nav.html,WEB-INF/classes/app/view=$MODULE_DIR$/src/main/webapp/app/view,WEB-INF/classes/raw=$MODULE_DIR$/src/main/webapp/raw,OSGI-INF/blueprint/shell-config.xml=$MODULE_DIR$/src/main/resources/OSGI-INF/blueprint/shell-config.xml,core/css.html=$MODULE_DIR$/src/main/resources/core/css.html,core/js.html=$MODULE_DIR$/src/main/resources/core/js.html,not-ready.html=$MODULE_DIR$/src/main/resources/not-ready.html" />
+          <property key="Import-Package" value="*,org.glassfish.jersey.servlet,org.jvnet.mimepull" />
+          <property key="Web-ContextPath" value="/onos/ui" />
+          <property key="Bundle-Name" value="onos-gui" />
+        </additionalProperties>
+        <additionalJARContents />
+      </configuration>
+    </facet>
+  </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />

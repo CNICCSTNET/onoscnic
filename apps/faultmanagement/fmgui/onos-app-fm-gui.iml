@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="onos-app-fm-gui-1.8.0-SNAPSHOT.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="org.onosproject.onos-app-fm-gui" bundleVersion="1.8.0.SNAPSHOT" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties>
+          <property key="Bundle-Description" value="ONOS framework applications" />
+          <property key="Bundle-Name" value="onos-app-fm-gui" />
+          <property key="Include-Resource" value="css.html=$MODULE_DIR$/src/main/resources/css.html,js.html=$MODULE_DIR$/src/main/resources/js.html,alarmTable/css.html=$MODULE_DIR$/src/main/resources/alarmTable/css.html,alarmTable/js.html=$MODULE_DIR$/src/main/resources/alarmTable/js.html,alarmTopov/css.html=$MODULE_DIR$/src/main/resources/alarmTopov/css.html,alarmTopov/js.html=$MODULE_DIR$/src/main/resources/alarmTopov/js.html,app/view/alarmTable/alarmTable.js=$MODULE_DIR$/src/main/resources/app/view/alarmTable/alarmTable.js,app/view/alarmTable/alarmTable.html=$MODULE_DIR$/src/main/resources/app/view/alarmTable/alarmTable.html,app/view/alarmTable/alarmTable.css=$MODULE_DIR$/src/main/resources/app/view/alarmTable/alarmTable.css,app/view/alarmTopov/sampleTopov.html=$MODULE_DIR$/src/main/resources/app/view/alarmTopov/sampleTopov.html,app/view/alarmTopov/alarmTopovOverlay.js=$MODULE_DIR$/src/main/resources/app/view/alarmTopov/alarmTopovOverlay.js,app/view/alarmTopov/alarmTopov.css=$MODULE_DIR$/src/main/resources/app/view/alarmTopov/alarmTopov.css,app/view/alarmTopov/alarmTopovDemo.js=$MODULE_DIR$/src/main/resources/app/view/alarmTopov/alarmTopovDemo.js" />
+        </additionalProperties>
+        <additionalJARContents />
+      </configuration>
+    </facet>
+  </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
